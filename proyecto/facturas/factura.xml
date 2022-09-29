@@ -1,0 +1,133 @@
+<CFE xmlns="http://cfe.dgi.gub.uy" version="1.0">
+    <eFact>
+        <TmstFirma>2020-05-15T15:04:01-03:00</TmstFirma>
+        <Encabezado>
+            <IdDoc>
+                <TipoCFE>111</TipoCFE>
+                <Serie>A</Serie>
+                <Nro>5647</Nro>
+                <FchEmis>2020-05-15</FchEmis>
+                <FmaPago>2</FmaPago>
+                <FchVenc>2020-05-04</FchVenc>
+            </IdDoc>
+            <Emisor>
+                <RUCEmisor>210964020017</RUCEmisor>
+                <RznSoc>CARGO TRANSLOG S.A.</RznSoc>
+                <NomComercial>CARGO TRANSLOG S.A.</NomComercial>
+                <GiroEmis>TRANSPORTE TERRESTRE LOCAL DE CARGA (FLETES, MUDANZAS, E</GiroEmis>
+                <Telefono>+598 22201826</Telefono>
+                <CorreoEmisor/>
+                <EmiSucursal>Sucursal Principal</EmiSucursal>
+                <CdgDGISucur>3</CdgDGISucur>
+                <DomFiscal>Cno. Petirossi 4416</DomFiscal>
+                <Ciudad>MONTEVIDEO</Ciudad>
+                <Departamento>MONTEVIDEO</Departamento>
+            </Emisor>
+            <Receptor>
+                <TipoDocRecep>2</TipoDocRecep>
+                <CodPaisRecep>UY</CodPaisRecep>
+                <DocRecep>210218660014</DocRecep>
+                <RznSocRecep>NORTESUR S.A.</RznSocRecep>
+                <DirRecep>RUTA 8 BRIG. GRAL. J.A. LAVALLEJA 7407</DirRecep>
+                <CiudadRecep>Montevideo</CiudadRecep>
+                <DeptoRecep>MONTEVIDEO</DeptoRecep>
+                <PaisRecep>Uruguay</PaisRecep>
+                <CP>    0</CP>
+                <InfoAdicional>C01030577</InfoAdicional>
+                <LugarDestEnt/>
+                <CompraID>SOLSER-A-18949</CompraID>
+            </Receptor>
+            <Totales>
+                <TpoMoneda>UYU</TpoMoneda>
+                <MntNoGrv>0.00</MntNoGrv>
+                <MntExpoyAsim>0.00</MntExpoyAsim>
+                <MntImpuestoPerc>0.00</MntImpuestoPerc>
+                <MntIVaenSusp>0.00</MntIVaenSusp>
+                <MntNetoIvaTasaMin>0.00</MntNetoIvaTasaMin>
+                <MntNetoIVATasaBasica>7938.00</MntNetoIVATasaBasica>
+                <MntNetoIVAOtra>0.00</MntNetoIVAOtra>
+                <IVATasaMin>10.00</IVATasaMin>
+                <IVATasaBasica>22.00</IVATasaBasica>
+                <MntIVATasaMin>0.00</MntIVATasaMin>
+                <MntIVATasaBasica>1746.36</MntIVATasaBasica>
+                <MntIVAOtra>0.00</MntIVAOtra>
+                <MntTotal>9684.36</MntTotal>
+                <MntTotRetenido>0.00</MntTotRetenido>
+                <CantLinDet>2</CantLinDet>
+                <MontoNF>0.00</MontoNF>
+                <MntPagar>9684.36</MntPagar>
+            </Totales>
+        </Encabezado>
+        <Detalle>
+            <Item>
+                <NroLinDet>1</NroLinDet>
+                <CodItem>
+                    <TpoCod>INT1</TpoCod>
+                    <Cod>000009</Cod>
+                </CodItem>
+                <IndFact>3</IndFact>
+                <NomItem>Flete de camion hasta 30Ton por h</NomItem>
+                <DscItem/>
+                <Cantidad>10.000</Cantidad>
+                <UniMed>HR</UniMed>
+                <PrecioUnitario>722.000000</PrecioUnitario>
+                <DescuentoPct>10.000</DescuentoPct>
+                <DescuentoMonto>722.00</DescuentoMonto>
+                <SubDescuento>
+                    <DescTipo>2</DescTipo>
+                    <DescVal>10.00</DescVal>
+                </SubDescuento>
+                <RecargoPct>0.000</RecargoPct>
+                <RecargoMnt>0.00</RecargoMnt>
+                <MontoItem>6498.00</MontoItem>
+            </Item>
+            <Item>
+                <NroLinDet>2</NroLinDet>
+                <CodItem>
+                    <TpoCod>INT1</TpoCod>
+                    <Cod>000019</Cod>
+                </CodItem>
+                <IndFact>3</IndFact>
+                <NomItem>Peón de carga y descarga</NomItem>
+                <DscItem/>
+                <Cantidad>10.000</Cantidad>
+                <UniMed>UN</UniMed>
+                <PrecioUnitario>144.000000</PrecioUnitario>
+                <DescuentoPct>0.000</DescuentoPct>
+                <DescuentoMonto>0.00</DescuentoMonto>
+                <RecargoPct>0.000</RecargoPct>
+                <RecargoMnt>0.00</RecargoMnt>
+                <MontoItem>1440.00</MontoItem>
+            </Item>
+        </Detalle>
+        <CAEData>
+            <CAE_ID>90200552479</CAE_ID>
+            <DNro>5501</DNro>
+            <HNro>9500</HNro>
+            <FecVenc>2022-04-15</FecVenc>
+        </CAEData>
+    </eFact>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>gIiq4efAlffUbiGVnd6LfCwK+Sk=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>WQqYgIhZ68qKjI8dKITDHq3Nk6Z1md6jCuzglE4qIXIoT8GRYDodWc5d4jn483b0JVdcKwSKiqvmfQGDMH9EPrZrYAwu/iDmw/F0UyVlBSO0gj+Z5OgN6zqAbsP0u9m5562n9LE+zWh8haFVzSNhWs5A7BARA6YYh/wFGKrG4XROv0FlQl73eIxsvfWslF/ROY52htCXnIlOofbmYMtDato3jzLWU0FXJZ+xG2yWmMpMxH9RS8o2D+TVPiZcUrgEfVFsLUbDwB4rxFYisGefT/Ulf1U1zPSt+eUxbVqnLoNW9Nw0AJQ84741T5HSP+8KcQ03ReDTfCJAKRscRvsJlQ==</SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509IssuerSerial>
+                    <X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+                    <X509SerialNumber>68964067461530201630077379538701379783754189582</X509SerialNumber>
+                </X509IssuerSerial>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</CFE>
