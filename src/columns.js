@@ -1,7 +1,7 @@
 // Campos marcados con "***" son obligatorios
 
 let cabezales = {
-    EMPCOD: "<tr><td>NOR",          // 0 - Codigo de empresa ***
+    EMPCOD: "NOR",          // 0 - Codigo de empresa ***
     DOCFCH: "FchEmis",             // 1 - Fecha Factura formato yyyymmdd ***
     PRVCOD: "",             // 2 - Codigo proveedor ***
     TDOCCOD: "TipoCFE",            // 3 - Tipo de documento ***
@@ -11,7 +11,7 @@ let cabezales = {
     PRVLOC: "",             // 7 - Localidad del proveedo (opcional)
     PRVRUC: "",             // 8 - Número de RUC del proveedor (opcional)
     MONCOD: "TpoMoneda",             // 9 - codigo de moneda ***
-    COTCOM: "<td>0</td>",              // 10 - cotizacion de transaccion (defecto 0)
+    COTCOM: "0",              // 10 - cotizacion de transaccion (defecto 0)
     LISTCOD: "",            // 11 - Codigo lista de precios (opcional)
     VENVTO: "FchVenc",             // 12 - Vencimiento del Documento formao yyymmdd ***                
     DOCDSC: "",             // 13 - Descripcion del Documento (opcional)
@@ -30,7 +30,7 @@ let cabezales = {
     DOCFCHORI: "",          // 26 - Fecha del Documento de Origen (Opcional)
     PRVCODORI: "",          // 27 - Código del Proveedor del Documento de Origen (Opcional)
     TDOCCODORI: "",         // 28 - Tipo de Documento del Documento de Origen(Opcional)    
-    DOCNUMORI: "<td></td></tr>"           // 29 - Comprobante del Documento de Origen (Opcional)
+    DOCNUMORI: ""           // 29 - Comprobante del Documento de Origen (Opcional)
 }
 
 let renglones = {
@@ -44,12 +44,12 @@ let renglones = {
     PRDNOM: "",             // 7 - nombre de producto (Opcional)
     RENDOCCANT: "",         // 8 - Cantidad ***
     RENDOCPREC: "",         // 9 - Precio unitario ***
-    RENDOCDCTO: 0,          // 10 - Porcentaje de descuento
-    RENDETDCTO: 0,          // 11 - Detalle de descuento
+    RENDOCDCTO: "0",          // 10 - Porcentaje de descuento
+    RENDETDCTO: "0",          // 11 - Detalle de descuento
     RENDOCDES: "",          // 12 - Descripcion del Renglon
     UNICODALT: "",          // 13 - Código de unidad alternativa (opcional)
-    RENDOCCANTA: 0,         // 14 - Cantidad en unidad alternativa (opcional)    
-    RENDOPRECA: 0,          // 15 - Precio en unidad alternativa (opcional)    
+    RENDOCCANTA: "0",         // 14 - Cantidad en unidad alternativa (opcional)    
+    RENDOPRECA: "0",          // 15 - Precio en unidad alternativa (opcional)    
     TRSTKCOD: "999",        // 16 - Código de transacción de stock asociada ***
     ELECODSTK1: "",         // 17 - Código de elemento a mover en la transacción de stock para el estado 1
     ELECODSTK2: "",         // 18 - Código de elemento a mover en la transacción de stock para el estado 2
@@ -71,7 +71,7 @@ let vencimientos = {
     TDOCCOD: "",            // 3 - Tipo de documento ***
     DOCNUM: "",             // 4 - numero de documento ***
     VNCFCH: "",             // 5 - Vencimiento formato yyyymmdd ***
-    VNCIMP: ""              // 6 - Importe (expresado siempre en la moneda del documento)
+    VNCIMP: ""               // 6 - Importe (expresado siempre en la moneda del documento)
 }
 
 
