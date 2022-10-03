@@ -1,7 +1,7 @@
 
 import { cabezales, renglones, vencimientos } from "./columns.js"
 import { downloadCSV } from "./exportCSV.js"
-import JSZip from "jszip"
+import JSZip from "../node_modules/jszip/dist/jszip.js"
 
 function facDetails(xml) {
 
