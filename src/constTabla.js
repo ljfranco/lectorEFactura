@@ -123,7 +123,7 @@ function facDetails(xml) {
 
 let zip = new JSZip()
 
-zip.file(`FAC${csvCab[4]}.cab`,csvCab.join(";")
+zip.file(`FAC${csvCab[4]}.cab`,csvCab.join(";"))
 
 zip.generateAsync({type:"blob"})
 .then(function(content) {
