@@ -1,8 +1,10 @@
 
 import { cabezales, renglones, vencimientos } from "./columns.js"
+import {zip,ac} from "./script.js"
 import { downloadCSV } from "./exportCSV.js"
-import JSZip from "../node_modules/jszip/dist/jszip.js"
+//import JSZip from "../node_modules/jszip/dist/jszip"
 
+let acc = 0 // acumulador para comparar cada ejecucion contra la cantidad de archivos 
 function facDetails(xml) {
 
     let xmlDoc = xml.responseXML;
@@ -94,10 +96,6 @@ function facDetails(xml) {
     cabezales.VENVTO = renglones.VENVTO = vencimientos.VENVTO = xmlDoc.getElementsByTagName("FchVenc")[0].childNodes[0].nodeValue.replaceAll("-", "")
 
 
-
-
-
-
     // console.log(cabezales);
     // console.log(renglones);
     // console.log(vencimientos);
@@ -105,32 +103,44 @@ function facDetails(xml) {
     let csvCab = []
     let csvRen = []
     let csvVen = []
+    //let zip = new JSZip()
 
     for (const dato in cabezales) {
         csvCab.push(cabezales[dato])
     }
-    downloadCSV(csvCab.join(";"), `FAC${csvCab[4]}.cab`)
+    //downloadCSV(csvCab.join(";"), `FAC${csvCab[4]}.cab`)
+    zip.file(`FAC${csvCab[4]}.cab`, csvCab.join(";"))
+
     for (const dato in renglones) {
         csvRen.push(renglones[dato])
     }
-    downloadCSV(csvRen.join(";"), `FAC${csvRen[4]}.ren`)
+    //downloadCSV(csvRen.join(";"), `FAC${csvRen[4]}.ren`)
+    zip.file(`FAC${csvRen[4]}.ren`, csvRen.join(";"))
+
     for (const dato in vencimientos) {
         csvVen.push(renglones[dato])
     }
-    downloadCSV(csvVen.join(";"), `FAC${csvVen[4]}.ven`)
+    //downloadCSV(csvVen.join(";"), `FAC${csvVen[4]}.ven`)
+    zip.file(`FAC${csvVen[4]}.ven`, csvVen.join(";"),)
+    
+
+    
+acc === ac ? download() : ""    //Si es la ultima ejecucion ejecuto Download
+
+acc++
 
 }
 
-let zip = new JSZip()
+const download = () =>{
+    zip.generateAsync({type:"blob"})
+    .then(function(content) {
+        // see FileSaver.js
+        //saveAs(content, "example.zip");
+        saveAs(content, "facturas.zip")
+    });
+}
 
-zip.file(`FAC${csvCab[4]}.cab`,csvCab.join(";"))
 
-zip.generateAsync({type:"blob"})
-.then(function(content) {
-    // see FileSaver.js
-    //saveAs(content, "example.zip");
-    downloadCSV(content, "file.zip")
-});
 //TODO Falta crear las otras tablas.
 
 
