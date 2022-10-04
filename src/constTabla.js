@@ -5,7 +5,7 @@ import { downloadCSV } from "./exportCSV.js"
 //import JSZip from "../node_modules/jszip/dist/jszip"
 
 let acc = 0 // acumulador para comparar cada ejecucion contra la cantidad de archivos 
-function facDetails(xml) {
+function facDetails(xml,cantArch) {  //Parametro cantArch es la condicion para ejecutar la funcion Download
 
     let xmlDoc = xml.responseXML;
 
@@ -125,7 +125,7 @@ function facDetails(xml) {
     
 
     
-acc === ac ? download() : ""    //Si es la ultima ejecucion ejecuto Download
+acc === cantArch ? download() : ""    //Si es la ultima ejecucion ejecuto Download
 
 acc++
 

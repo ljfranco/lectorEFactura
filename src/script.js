@@ -2,7 +2,6 @@ import { facDetails } from "./constTabla.js";
 
 
 let zip = new JSZip()
-let ac = 0 // Variable para detectar ultimo archivo y ejecutar el download
 // Funcion para Obtener los archivos como arreglo de objetos "fileList"
 const fileSelector = document.getElementById('archivos');
 fileSelector.addEventListener('change', (event) => {
@@ -15,7 +14,7 @@ fileSelector.addEventListener('change', (event) => {
         objFactura.onreadystatechange = function () {
             // Request terminada y Verifica estado Ok
             if (this.readyState == 4 && this.status == 200) {
-                facDetails(this);   //Llamo funcion que arma la tabla con los datos
+                facDetails(this,fileList.length-1);   //Llamo funcion que genera los archivos y los agrega al archivo zip
             }
 
         };
@@ -32,7 +31,7 @@ fileSelector.addEventListener('change', (event) => {
 
 //TODO falta agregar la seccion de descarga de archivo.
 
-export { zip, ac }
+export { zip }
 
 
 
