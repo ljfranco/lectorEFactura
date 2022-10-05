@@ -1,23 +1,28 @@
-
-import { cabezales, renglones, vencimientos } from "./columns.js"
-import {zip,ac} from "./script.js"
-import { downloadCSV } from "./exportCSV.js"
+import { cabezales, renglones, tablaResultado, vencimientos } from "./columns.js";
+import { zip, } from "./script.js";
+import { tipoCFE } from "../resourses/tipoCFE.js";
+import { downloadCSV } from "./exportCSV.js";
 //import JSZip from "../node_modules/jszip/dist/jszip"
 
-let acc = 0 // acumulador para comparar cada ejecucion contra la cantidad de archivos 
-function facDetails(xml,cantArch) {  //Parametro cantArch es la condicion para ejecutar la funcion Download
+let acc = 0; // acumulador para comparar cada ejecucion contra la cantidad de archivos
+let tablaCab = ""
+
+function facDetails(xml, cantArch) {
+    //Parametro cantArch es la condicion para ejecutar la funcion Download
 
     let xmlDoc = xml.responseXML;
 
-    let tablaCab = "<tr>"  // Creo la tabla  Cabezales
+    acc === 0 ? tablaCab = "<tr><th></th><th>Fecha</th><th>Documento</th><th>Número</th><th>Proveedor</th><th>Moneda</th><th>Importe</th></tr>" : "" // Creo la tabla  Cabezales
 
     // bucle para crear encabezados
 
-    for (let campo in cabezales) {
+    // for (let campo in cabezales) {
+    //     tablaCab += `<th>${campo}</th>`; // inserto las columnas
+    //     campo === Object.keys(cabezales)[Object.keys(cabezales).length - 1]
+    //         ? (tablaCab += "</tr>")
+    //         : ""; // comparo con el ultimo campo y si es true finalizo la fila
+    // }
 
-        tablaCab += `<th>${campo}</th>`  // inserto las columnas
-        campo === Object.keys(cabezales)[Object.keys(cabezales).length - 1] ? tablaCab += "</tr>" : "" // comparo con el ultimo campo y si es true finalizo la fila
-    }
 
     // Carga de datos variables que se obtienen de CFE
 
@@ -62,86 +67,111 @@ function facDetails(xml,cantArch) {  //Parametro cantArch es la condicion para e
 
     // }
 
+
+
+    cabezales.DOCFCH =
+        renglones.DOCFCH =
+        vencimientos.DOCFCH =
+        xmlDoc.getElementsByTagName("FchEmis")[0].childNodes[0].nodeValue.replaceAll("-", "");
+
+    let cfe = xmlDoc.getElementsByTagName("TipoCFE")[0].childNodes[0].nodeValue;
+
+    switch (cfe) {
+        case "112":
+            cabezales.TDOCCOD = renglones.TDOCCOD = vencimientos.TDOCCOD = "NCPS";
+            break;
+        case "111":
+            cabezales.TDOCCOD = renglones.TDOCCOD = vencimientos.TDOCCOD = "FACPS";
+            break;
+        default:
+            alert("Documeno no definido");
+            break;
+    }
+
+    cabezales.DOCNUM =
+        renglones.DOCNUM =
+        vencimientos.DOCNUM =
+        tablaResultado.DOCNUM =
+        xmlDoc.getElementsByTagName("Nro")[0].childNodes[0].nodeValue;
+
+    let moneda =
+        xmlDoc.getElementsByTagName("TpoMoneda")[0].childNodes[0].nodeValue;
+
+    switch (moneda) {
+        case "UYU":
+            cabezales.MONCOD = renglones.MONCOD = vencimientos.MONCOD = 1;
+            break;
+        case "USD":
+            cabezales.MONCOD = renglones.MONCOD = vencimientos.MONCOD = 2;
+            break;
+        case "EUR":
+            cabezales.MONCOD = renglones.MONCOD = vencimientos.MONCOD = 3;
+            break;
+        default:
+            alert("Moneda no definida");
+            break;
+    }
+
+    cabezales.VENVTO =
+        renglones.VENVTO =
+        vencimientos.VENVTO =
+        xmlDoc.getElementsByTagName("FchVenc")[0].childNodes[0].nodeValue.replaceAll("-", "");
+
+    cabezales.PRVNOM = tablaResultado.PRVNOM = xmlDoc.getElementsByTagName("RznSoc")[0].childNodes[0].nodeValue
+
+    vencimientos.VNCIMP = tablaResultado.VNCIMP =
+        xmlDoc.getElementsByTagName("MntTotal")[0].childNodes[0].nodeValue
+
+
+    tablaResultado.TDOCCOD = tipoCFE[xmlDoc.getElementsByTagName("TipoCFE")[0].childNodes[0].nodeValue]
+    let fecha = new Date(xmlDoc.getElementsByTagName("FchEmis")[0].childNodes[0].nodeValue)
+    fecha.setMinutes(fecha.getMinutes() + fecha.getTimezoneOffset())
+    tablaResultado.DOCFCH = fecha.toLocaleDateString()
+    tablaResultado.MONCOD = xmlDoc.getElementsByTagName("TpoMoneda")[0].childNodes[0].nodeValue
+
+    let datosTabla = []
+    let csvCab = [];
+    let csvRen = [];
+    let csvVen = [];
+
+    for (const dato in tablaResultado) {
+        datosTabla.push(tablaResultado[dato])
+    }
+    tablaCab += `<tr><td>${acc + 1}</td><td>${datosTabla.join("</td><td>")}</tr>`
     // Imprimir los datos en la tabla
     document.getElementById("tablaCab").innerHTML = tablaCab;
 
-    cabezales.DOCFCH = renglones.DOCFCH = vencimientos.DOCFCH = xmlDoc.getElementsByTagName("FchEmis")[0].childNodes[0].nodeValue.replaceAll("-", "")
-
-    let cfe = xmlDoc.getElementsByTagName("TipoCFE")[0].childNodes[0].nodeValue
-
-    switch (cfe) {
-        case "112": cabezales.TDOCCOD = renglones.TDOCCOD = vencimientos.TDOCCOD = "NCPS"
-            break
-        case "111": cabezales.TDOCCOD = renglones.TDOCCOD = vencimientos.TDOCCOD = "FACPS"
-            break
-        default: alert("Documeno no definido")
-            break;
-    }
-
-    cabezales.DOCNUM = renglones.DOCNUM = vencimientos.DOCNUM = xmlDoc.getElementsByTagName("Nro")[0].childNodes[0].nodeValue
-
-    let moneda = xmlDoc.getElementsByTagName("TpoMoneda")[0].childNodes[0].nodeValue
-
-    switch (moneda) {
-        case "UYU": cabezales.MONCOD = renglones.MONCOD = vencimientos.MONCOD = 1
-            break
-        case "USD": cabezales.MONCOD = renglones.MONCOD = vencimientos.MONCOD = 2
-            break
-        case "EUR": cabezales.MONCOD = renglones.MONCOD = vencimientos.MONCOD = 3
-            break
-        default: alert("Moneda no definida")
-            break;
-    }
-
-    cabezales.VENVTO = renglones.VENVTO = vencimientos.VENVTO = xmlDoc.getElementsByTagName("FchVenc")[0].childNodes[0].nodeValue.replaceAll("-", "")
-
-
-    // console.log(cabezales);
-    // console.log(renglones);
-    // console.log(vencimientos);
-
-    let csvCab = []
-    let csvRen = []
-    let csvVen = []
-    //let zip = new JSZip()
-
     for (const dato in cabezales) {
-        csvCab.push(cabezales[dato])
+        csvCab.push(cabezales[dato]);
     }
     //downloadCSV(csvCab.join(";"), `FAC${csvCab[4]}.cab`)
-    zip.file(`FAC${csvCab[4]}.cab`, csvCab.join(";"))
+    zip.file(`FAC${csvCab[4]}.cab`, csvCab.join(";"));
 
     for (const dato in renglones) {
-        csvRen.push(renglones[dato])
+        csvRen.push(renglones[dato]);
     }
     //downloadCSV(csvRen.join(";"), `FAC${csvRen[4]}.ren`)
-    zip.file(`FAC${csvRen[4]}.ren`, csvRen.join(";"))
+    zip.file(`FAC${csvRen[4]}.ren`, csvRen.join(";"));
 
     for (const dato in vencimientos) {
-        csvVen.push(renglones[dato])
+        csvVen.push(renglones[dato]);
     }
     //downloadCSV(csvVen.join(";"), `FAC${csvVen[4]}.ven`)
-    zip.file(`FAC${csvVen[4]}.ven`, csvVen.join(";"),)
-    
+    zip.file(`FAC${csvVen[4]}.ven`, csvVen.join(";"));
 
-    
-acc === cantArch ? download() : ""    //Si es la ultima ejecucion ejecuto Download
+    acc === cantArch ? download() : ""; //Si es la ultima ejecucion ejecuto Download
 
-acc++
-
+    acc++;
 }
 
-const download = () =>{
-    zip.generateAsync({type:"blob"})
-    .then(function(content) {
+const download = () => {
+    zip.generateAsync({ type: "blob" }).then(function (content) {
         // see FileSaver.js
         //saveAs(content, "example.zip");
-        saveAs(content, "facturas.zip")
+        saveAs(content, "facturas.zip");
     });
-}
-
+};
 
 //TODO Falta crear las otras tablas.
 
-
-export { facDetails }
+export { facDetails };

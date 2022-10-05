@@ -6,7 +6,7 @@ let cabezales = {
     PRVCOD: "",             // 2 - Codigo proveedor ***
     TDOCCOD: "TipoCFE",            // 3 - Tipo de documento ***
     DOCNUM: "Nro",             // 4 - numero de documento ***
-    PRVNOM: "",             // 5 - Nombre proveedor (opcional)
+    PRVNOM: "RznSoc",             // 5 - Nombre proveedor (opcional)
     PRVDIR: "",             // 6 - Dirección del proveedor(opcional)
     PRVLOC: "",             // 7 - Localidad del proveedo (opcional)
     PRVRUC: "",             // 8 - Número de RUC del proveedor (opcional)
@@ -74,5 +74,12 @@ let vencimientos = {
     VNCIMP: ""               // 6 - Importe (expresado siempre en la moneda del documento)
 }
 
-
-export { cabezales, renglones, vencimientos }
+let tablaResultado = {
+    DOCFCH: "",
+    TDOCCOD: "",
+    DOCNUM: "",
+    PRVNOM: "RznSoc",
+    MONCOD: "TpoMoneda",
+    VNCIMP: "MntTotal"
+}
+export { cabezales, renglones, vencimientos, tablaResultado }
