@@ -1,0 +1,14 @@
+Significado codigo <IndFact> de cada item facturado
+1: Exento de IVA
+2: Gravado a Tasa Mínima
+3: Gravado a Tasa Básica
+4: Gravado a “Otra Tasa”
+5: Entrega Gratuita. Por ejemplo docenas de trece
+6: Producto o servicio no facturable
+7: Producto o servicio no facturable negativo
+8: Sólo para remitos: Ítem a rebajar en e-remitos y en eremitos de exportación. En área de referencia se debe indicar el N° de remito que ajusta
+9: Sólo para resguardos Ítem a anular en resguardos. En área de referencia se debe indicar el N° de resguardo que anular
+10: Exportación y asimiladas
+11: Impuesto percibido
+12: IVA en suspenso
+13: Sólo para e-Boleta de entrada y sus notas de corrección (Ítem vendido por un no contribuyente (valida que A-C60≠2)
