@@ -1,4 +1,4 @@
-[
+let proveedores = [
     {
         "codProv": "P012252121212",
         "rut": 215254580014,
@@ -13,9 +13,9 @@
         ]
     },
     {
-        "codProv": "P012252121212",
-        "rut": 215254580014,
-        "razonSocial": "Pepito",
+        "codProv": "P01225212car",
+        "rut": "210964020017",
+        "razonSocial": "CARGO TRANSLOG S.A.",
         "codproductos": [
             "22515665",
             "2316548"
@@ -41,3 +41,5 @@
         ]
     }
 ]
+
+export {proveedores}

@@ -25,7 +25,7 @@ const tipoCFE = {
     "212": "Nota de Crédito de e-Factura Contingencia",
     "213": "Nota de Débito de e-Factura Contingencia",
     "221": "e-Factura Exportación Contingencia",
-    "222": " Exportación Contingencia Exportación Contingencia",
+    "222": "Exportación Contingencia Exportación Contingencia",
     "223": "Nota de Débito de e-Factura Exportación Contingencia",
     "224": "e-Remito de Exportación Contingencia",
     "231": "e-Ticket Venta por Cuenta Ajena Contingencia",
