@@ -1,8 +1,9 @@
 import { facDetails } from './constTabla.js'
 
 const zip = new JSZip()
-// Funcion para Obtener los archivos como arreglo de objetos "fileList"
+//Funcion para Obtener los archivos como arreglo de objetos "fileList"
 const fileSelector = document.getElementById('archivos')
+
 fileSelector.addEventListener('change', (event) => {
     const fileList = event.target.files
 
@@ -21,6 +22,17 @@ fileSelector.addEventListener('change', (event) => {
 
 
 })
+// const butOpenFile = document.getElementById('archivos2')
+// let fileHandle;
+// butOpenFile.addEventListener('click', async () => {
+//     [fileHandle] = await window.showOpenFilePicker();
+//     const file = await fileHandle.getFile();
+//     const contents = await file.text();
+//     for (let i = 0; i < fileHandle.length; i++) {
+//         facDetails(file, fileHandle.length - 1) // Llamo funcion que genera los archivos y los agrega al archivo zip
+
+//     }
+// });
 
 // TODO falta agregar la seccion de descarga de archivo.
 
