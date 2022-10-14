@@ -1,0 +1,265 @@
+<CFE version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-06T04:22:26.494-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>70981</Nro>
+				<NroInterno>042853</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>213428330015</RUCEmisor>
+				<RznSoc>AMELUZ S.A.</RznSoc>
+				<NomComercial>AMELUZ S.A.</NomComercial>
+				<GiroEmis>SUPERMERCADO</GiroEmis>
+				<Telefono>27117250</Telefono>
+				<CorreoEmisor>atcliente@geant.com.uy</CorreoEmisor>
+				<EmiSucursal>CENTRAL</EmiSucursal>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>JAIME ZUDANEZ 2627</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR LTDA.</RznSocRecep>
+				<DirRecep>RUTA 8 J.A.LAVALLEJA 7407-09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+				<PaisRecep>URUGUAY</PaisRecep>
+				<CP>12200</CP>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<TpoCambio>1.000</TpoCambio>
+				<MntTotRetenido>2037.40</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<ValRetPerc>2037.40</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<Tasa>50.000</Tasa>
+					<MntSujetoaRet>4074.73</MntSujetoaRet>
+					<ValRetPerc>2037.40</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>210497</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-06</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>2</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252031</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-06</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>3</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252657</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-13</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>4</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253210</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-20</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>5</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>259484</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-27</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90210769292</CAE_ID>
+			<DNro>65001</DNro>
+			<HNro>85000</HNro>
+			<FecVenc>2023-05-26</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>Nx95DHBlcPG5wAEWTCleSvOiLKQ=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>jz2u7itZN0+n3+5k8KmeVC3w85cNAfr4DR4Pqm83QOVaaa9/fMYhvqUlBSimARnTXkGByvpKZlkjSaN/SWeUVL7bdWx8jgDCL6CVBc4fCfxKv0V5MXjK2T0zGJhQEHCG9tVoQ+QRU8/JvNMIzqczoIwbM45FGXy//9sswIDr/MLrNrgZ7aKNKSMJ3WaxaZX6BIlyqoHocK08K2PhAWIvo69aFXAJSygBx0S8fW0h2/g1pS5Y06SfTqZysDxFHa5ovo6NF59Es5tFieM60pvzLH4wGVZ/Y2xeVSpFiS0Fn2ZSI1m+Vwco6YIB2hwMYyUpaDtgw3Im08kXRLK9+w0IxA==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>548047035623747480755565507649724185979788653851</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>
+	<Rondanet>
+		<A01>
+			<Numerar>1</Numerar>
+			<Firmar>1</Firmar>
+			<NroDocInterno>42853</NroDocInterno>
+			<SerieDocInterna>0</SerieDocInterna>
+			<UsuarioQueEmite>rguedes</UsuarioQueEmite>
+			<EstacionQueEmite>1</EstacionQueEmite>
+		</A01>
+		<A03>
+			<PublicarSiempre>1</PublicarSiempre>
+		</A03>
+		<A04>
+			<Columnas>
+				<Columna>
+					<Titulo>Cod.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Serie.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Nro.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Fec.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Moneda</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovMn</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovIng</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Porc.Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpNetoGravado</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Sucursal</Titulo>
+				</Columna>
+			</Columnas>
+			<Lineas>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>210497</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>347,73</Dato>
+					<Dato>347,73</Dato>
+					<Dato>50,000</Dato>
+					<Dato>695,44</Dato>
+					<Dato>Ameluz 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252031</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>341,04</Dato>
+					<Dato>341,04</Dato>
+					<Dato>50,000</Dato>
+					<Dato>682,07</Dato>
+					<Dato>Ameluz 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252657</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>124,20</Dato>
+					<Dato>124,20</Dato>
+					<Dato>50,000</Dato>
+					<Dato>248,40</Dato>
+					<Dato>Ameluz 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253210</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>869,48</Dato>
+					<Dato>869,48</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1738,94</Dato>
+					<Dato>Ameluz 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>259484</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>354,95</Dato>
+					<Dato>354,95</Dato>
+					<Dato>50,000</Dato>
+					<Dato>709,88</Dato>
+					<Dato>Ameluz 01</Dato>
+				</Linea>
+				<Linea estilo="total">
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato>TOTAL</Dato>
+					<Dato>$</Dato>
+					<Dato>2037,40</Dato>
+					<Dato>2037,40</Dato>
+					<Dato/>
+					<Dato>4074,73</Dato>
+					<Dato/>
+				</Linea>
+			</Lineas>
+		</A04>
+	</Rondanet>
+</Adenda>
+

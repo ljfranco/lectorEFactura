@@ -12,6 +12,7 @@ function facDetails(xml, cantArch) {
     //Parametro cantArch es la condicion para ejecutar la funcion Download
 
     let xmlDoc = xml.responseXML;
+    
 
     acc === 0 ? tablahtml = "<tr><th></th><th>Fecha</th><th>Documento</th><th>Número</th><th>Proveedor</th><th>Moneda</th><th>Importe</th></tr>" : "" // Creo la tabla  Cabezales
 
@@ -150,6 +151,19 @@ function facDetails(xml, cantArch) {
     cabezales.DOCFCHING = (hoy.getFullYear() + ("0" + (hoy.getMonth() + 1)).slice(-2) + ("0" + hoy.getDate()).slice(-2))
     cabezales.DOCHORA = ("0" + hoy.getHours()).slice(-2) + ("0" + hoy.getMinutes()).slice(-2) + ("0" + hoy.getSeconds()).slice(-2)
 
+    // Obtencion numero de linea tabla Renglones
+    // const constructRenglones = xmlDoc => {
+    //     let nroRenglones = xmlDoc.getElementsByTagName("CantLinDet")[0].childNodes[0].nodeValue
+    //     let arrayNodosRen = xmlDoc.getElementsByTagName("NroLinDet")
+    //     console.log(arra);
+    //     arrayNodosRen.forEach((element, indice) => {
+    //         xmlDoc.getElementsByTagName
+    //     });
+    // }
+    let arrayNodosRen = xmlDoc.getElementsByTagName("Item")
+         console.log(arrayNodosRen);
+
+
     // Obtencion dato codigo Tipo de documento e inlcusion en tabla html nombre del mismo
     tablaResultado.TDOCCOD = tipoCFE[xmlDoc.getElementsByTagName("TipoCFE")[0].childNodes[0].nodeValue]
     // Obtencion y formateo de fecha del documento para tabla html    
@@ -201,7 +215,7 @@ const download = () => {
     zip.generateAsync({ type: "blob" }).then(function (content) {
         // see FileSaver.js
         //saveAs(content, "example.zip");
-        saveAs(content, "facturas.zip");
+        //ANCHOR - saveAs(content, "facturas.zip");
     });
 };
 

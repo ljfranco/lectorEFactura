@@ -1,0 +1,107 @@
+<ns1:CFE xmlns:ns1="http://cfe.dgi.gub.uy" version="1.0">
+	<ns1:eFact>
+		<ns1:TmstFirma>2022-09-05T12:20:02-03:00</ns1:TmstFirma>
+		<ns1:Encabezado>
+			<ns1:IdDoc>
+				<ns1:TipoCFE>111</ns1:TipoCFE>
+				<ns1:Serie>A</ns1:Serie>
+				<ns1:Nro>12029</ns1:Nro>
+				<ns1:FchEmis>2022-09-05</ns1:FchEmis>
+				<ns1:MntBruto>1</ns1:MntBruto>
+				<ns1:FmaPago>1</ns1:FmaPago>
+				<ns1:FchVenc>2024-05-09</ns1:FchVenc>
+			</ns1:IdDoc>
+			<ns1:Emisor>
+				<ns1:RUCEmisor>217483370018</ns1:RUCEmisor>
+				<ns1:RznSoc>MESA AROSTEGUI MARTIN</ns1:RznSoc>
+				<ns1:NomComercial>Da Vinci</ns1:NomComercial>
+				<ns1:EmiSucursal>Principal</ns1:EmiSucursal>
+				<ns1:CdgDGISucur>1</ns1:CdgDGISucur>
+				<ns1:DomFiscal>Leonardo Da Vinci 3408</ns1:DomFiscal>
+				<ns1:Ciudad>Montevideo</ns1:Ciudad>
+				<ns1:Departamento>Montevideo</ns1:Departamento>
+			</ns1:Emisor>
+			<ns1:Receptor>
+				<ns1:TipoDocRecep>2</ns1:TipoDocRecep>
+				<ns1:CodPaisRecep>UY</ns1:CodPaisRecep>
+				<ns1:DocRecep>210218660014</ns1:DocRecep>
+				<ns1:RznSocRecep>Nortesur s,a,</ns1:RznSocRecep>
+				<ns1:DirRecep>Cno. Maldonado 7409</ns1:DirRecep>
+				<ns1:CiudadRecep>Montevideo</ns1:CiudadRecep>
+				<ns1:DeptoRecep>Montevideo</ns1:DeptoRecep>
+			</ns1:Receptor>
+			<ns1:Totales>
+				<ns1:TpoMoneda>UYU</ns1:TpoMoneda>
+				<ns1:MntNetoIvaTasaMin>0</ns1:MntNetoIvaTasaMin>
+				<ns1:MntNetoIVATasaBasica>319.67</ns1:MntNetoIVATasaBasica>
+				<ns1:IVATasaMin>10</ns1:IVATasaMin>
+				<ns1:IVATasaBasica>22</ns1:IVATasaBasica>
+				<ns1:MntIVATasaMin>0</ns1:MntIVATasaMin>
+				<ns1:MntIVATasaBasica>70.33</ns1:MntIVATasaBasica>
+				<ns1:MntTotal>390</ns1:MntTotal>
+				<ns1:CantLinDet>3</ns1:CantLinDet>
+				<ns1:MntPagar>390</ns1:MntPagar>
+			</ns1:Totales>
+		</ns1:Encabezado>
+		<ns1:Detalle>
+			<ns1:Item>
+				<ns1:NroLinDet>1</ns1:NroLinDet>
+				<ns1:IndFact>3</ns1:IndFact>
+				<ns1:NomItem>1 napo a caballo</ns1:NomItem>
+				<ns1:Cantidad>1</ns1:Cantidad>
+				<ns1:UniMed>Uni.</ns1:UniMed>
+				<ns1:PrecioUnitario>245</ns1:PrecioUnitario>
+				<ns1:MontoItem>245</ns1:MontoItem>
+			</ns1:Item>
+			<ns1:Item>
+				<ns1:NroLinDet>2</ns1:NroLinDet>
+				<ns1:IndFact>3</ns1:IndFact>
+				<ns1:NomItem>Coca 1 Lt</ns1:NomItem>
+				<ns1:Cantidad>1</ns1:Cantidad>
+				<ns1:UniMed>Uni.</ns1:UniMed>
+				<ns1:PrecioUnitario>120</ns1:PrecioUnitario>
+				<ns1:MontoItem>120</ns1:MontoItem>
+			</ns1:Item>
+			<ns1:Item>
+				<ns1:NroLinDet>3</ns1:NroLinDet>
+				<ns1:IndFact>3</ns1:IndFact>
+				<ns1:NomItem>Sin envase</ns1:NomItem>
+				<ns1:Cantidad>1</ns1:Cantidad>
+				<ns1:UniMed>Uni.</ns1:UniMed>
+				<ns1:PrecioUnitario>25</ns1:PrecioUnitario>
+				<ns1:MontoItem>25</ns1:MontoItem>
+			</ns1:Item>
+		</ns1:Detalle>
+		<ns1:CAEData>
+			<ns1:CAE_ID>90220823664</ns1:CAE_ID>
+			<ns1:DNro>12001</ns1:DNro>
+			<ns1:HNro>12500</ns1:HNro>
+			<ns1:FecVenc>2024-05-09</ns1:FecVenc>
+		</ns1:CAEData>
+	</ns1:eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>TrCHkyeENCXmr0VPI2hi/dnqvYo=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>ogg6jG3/ykvd2znVgxiQE1JWMEzpeMOfQLNT7mpFYq4qA8r96dIq+Qw3K4R4XzIbwOuolZic2b2mg4WBgYCwzSaIH8W+Uu53cWVtWNebHYpFWpNkBXGhdvcbyxQdrjxPkaIvqqm2y/wRqR6wL8en8AtI+FtUbUf8jk4r9Z9MrIrCnHoTcthxrz071PKq2cqi7EeFuP6JWuGkxcmLLeKpCDnizhTYGH+uJ8SrXFBqen3SGwENQ1WSOH6Nmaqa1v21HDcMrHQhTbNTn98XvdIRi+XoL9u+WeHAToYcBg/WphMoeYLKA3mgu8hvAQFcsGm7vtNHSAvGh39C37p3aQ1Geg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>C=UY, L=Montevideo, O=Abitab S.A., OU=ID digital, CN=Abitab</X509IssuerName>
+					<X509SerialNumber>404524844620892536460247469213079574976433592396</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</ns1:CFE>
+<ns1:Adenda xmlns:ns1="http://cfe.dgi.gub.uy"/>
+

@@ -1,0 +1,113 @@
+<CFE xmlns="http://cfe.dgi.gub.uy" version="1.0">
+	<eFact>
+		<TmstFirma>2022-09-02T12:16:26-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>12399</Nro>
+				<FchEmis>2022-09-02</FchEmis>
+				<FmaPago>2</FmaPago>
+				<FchVenc>2022-10-02</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>210964020017</RUCEmisor>
+				<RznSoc>CARGO TRANSLOG S.A.</RznSoc>
+				<NomComercial>CARGO TRANSLOG S.A.</NomComercial>
+				<GiroEmis>TRANSPORTE TERRESTRE LOCAL DE CARGA (FLETES, MUDANZAS, E</GiroEmis>
+				<Telefono>+598 22201826</Telefono>
+				<CorreoEmisor/>
+				<EmiSucursal>Sucursal Principal</EmiSucursal>
+				<CdgDGISucur>3</CdgDGISucur>
+				<DomFiscal>Cno. Petirossi 4416</DomFiscal>
+				<Ciudad>MONTEVIDEO</Ciudad>
+				<Departamento>MONTEVIDEO</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR S.A.</RznSocRecep>
+				<DirRecep>RUTA 8 BRIG. GRAL. J.A. LAVALLEJA 7407</DirRecep>
+				<CiudadRecep>Montevideo</CiudadRecep>
+				<DeptoRecep>MONTEVIDEO</DeptoRecep>
+				<PaisRecep>Uruguay</PaisRecep>
+				<CP>    0</CP>
+				<InfoAdicional>C01030577</InfoAdicional>
+				<LugarDestEnt/>
+				<CompraID>SOLSERAP-A-5622</CompraID>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntNoGrv>0.00</MntNoGrv>
+				<MntExpoyAsim>0.00</MntExpoyAsim>
+				<MntImpuestoPerc>0.00</MntImpuestoPerc>
+				<MntIVaenSusp>0.00</MntIVaenSusp>
+				<MntNetoIvaTasaMin>0.00</MntNetoIvaTasaMin>
+				<MntNetoIVATasaBasica>14377.00</MntNetoIVATasaBasica>
+				<MntNetoIVAOtra>0.00</MntNetoIVAOtra>
+				<IVATasaMin>10.00</IVATasaMin>
+				<IVATasaBasica>22.00</IVATasaBasica>
+				<MntIVATasaMin>0.00</MntIVATasaMin>
+				<MntIVATasaBasica>3162.94</MntIVATasaBasica>
+				<MntIVAOtra>0.00</MntIVAOtra>
+				<MntTotal>17539.94</MntTotal>
+				<MntTotRetenido>0.00</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<MontoNF>0.00</MontoNF>
+				<MntPagar>17539.94</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>000002</Cod>
+				</CodItem>
+				<IndFact>3</IndFact>
+				<NomItem>Flete de camion hasta 4Ton por h</NomItem>
+				<DscItem/>
+				<Cantidad>11.000</Cantidad>
+				<UniMed>HR</UniMed>
+				<PrecioUnitario>1307.000000</PrecioUnitario>
+				<DescuentoPct>0.000</DescuentoPct>
+				<DescuentoMonto>0.00</DescuentoMonto>
+				<RecargoPct>0.000</RecargoPct>
+				<RecargoMnt>0.00</RecargoMnt>
+				<MontoItem>14377.00</MontoItem>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90211578334</CAE_ID>
+			<DNro>9501</DNro>
+			<HNro>14000</HNro>
+			<FecVenc>2023-10-04</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>71jLZ3PmI+rQEZwEqQGtNsWgp30=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>ZFUObMI407+4tPk3gjawNL9q1oSKzn960X6Cdyqb6h1E0ltSv1ZuRJIm+chYbQtphfkohphGPjt/zei4ouqcWrIubN1oQC19hI0GvvmZK1bjHV0cTwdGB7znAdsMZgkZP20zKRhGMR8CHqCmR4BXicHyEusZq7J/Sj/00K4YNcewWEuAP4RLV2SE3q+8ak8E3kji+18dV+4k06laLJfUemKcpopxHhYZhKvqTuWEH+ixFsJJ50SYGCrwNeDYkGHKLMvJsHi+KnZPQ8zVvh8QjED/9xUT74TFY3OKvcSFlzeys4uq6b7OVwjHKGs52vUt7LmXWDLb+BCVJDZVSdwhNA==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>218735775035588988225429404098928247317845651704</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda xmlns="http://cfe.dgi.gub.uy">MATRICULA STP 6413, REPARTO CENTRO</Adenda>
+

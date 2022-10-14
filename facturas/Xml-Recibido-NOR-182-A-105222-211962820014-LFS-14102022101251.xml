@@ -1,0 +1,87 @@
+<CFE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-12T16:44:45-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>105222</Nro>
+				<NroInterno>202210121888927</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>211962820014</RUCEmisor>
+				<RznSoc>OSE</RznSoc>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>Carlos Roxlo 1275</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR SOCIEDAD AN?NIMA</RznSocRecep>
+				<DirRecep>RUTA 8 7407-MONTEVIDEO</DirRecep>
+				<PaisRecep>URUGU</PaisRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntTotRetenido>19487.08</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183118</CodRet>
+					<ValRetPerc>19487.08</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183118</CodRet>
+					<Tasa>60.0</Tasa>
+					<MntSujetoaRet>32478.47</MntSujetoaRet>
+					<ValRetPerc>19487.08</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<IndGlobal>1</IndGlobal>
+				<RazonRef>111|A|   210826|           32478.47|  60.0000|           19487.08|20220922</RazonRef>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90210342997</CAE_ID>
+			<DNro>90001</DNro>
+			<HNro>130000</HNro>
+			<FecVenc>2023-03-12</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>I1uY0AMXum2F63B0jKGZZE2+xDA=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>E55EpGnycS5iPil2Ev/E7+ZpQ4ReDrSR4e7TmCPkomCRoJLxjfQT6GXt4lVfW7QTiLBjPG1JoTXkg8w+YShAl84ZyQEX8nUsbQHrVyYOT2K1aAlGIlL9nMQrtYOEtqud9rCIp59VkaD1HLrTfBf3krHi+/ef/iN+56TFcLpUROCiuZ89Oa6RyoGkmVyqvSV4VuCQYfLtqgf9rBJNfSVtMri977Q7BA+3SBBqs/yEd+qBfrS+8DLKGI8V5z57lN1NCA7JeVVvyKXPH7utbbpbVStqds+PR0ZrEaHbPNtLg1iBccwRssS1HeiHS9PP7TF3k1nj1/CFnhovcBQ1pCNbJw==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>C=UY, O=Administración Nacional de Correos, CN=Correo Uruguayo - CA</X509IssuerName>
+					<X509SerialNumber>437694884033247643981064945763883013730669640154</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>2183118IVA RETENCIÓN A PROVEEDORES (Compras del Estado)</Adenda>
+

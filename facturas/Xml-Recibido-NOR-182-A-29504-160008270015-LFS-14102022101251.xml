@@ -1,0 +1,93 @@
+<CFE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-07T14:39:41-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>29504</Nro>
+				<NroInterno>8360086</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>160008270015</RUCEmisor>
+				<RznSoc>EL REVOLTIJO S.A.</RznSoc>
+				<NomComercial>EL REVOLTIJO S.A.</NomComercial>
+				<Telefono>47333336</Telefono>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>Avda. Batlle 2525</DomFiscal>
+				<Ciudad>SALTO</Ciudad>
+				<Departamento>SALTO</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR S.A.</RznSocRecep>
+				<DirRecep>CAMINO PETIRASE 4420</DirRecep>
+				<CiudadRecep>MONTEVIDEO CAPITAL</CiudadRecep>
+				<InfoAdicional>8360086</InfoAdicional>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntTotRetenido>1635.46</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<ValRetPerc>1635.46</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<Tasa>50</Tasa>
+					<MntSujetoaRet>3270.92</MntSujetoaRet>
+					<ValRetPerc>1635.46</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252156</NroCFERef>
+				<RazonRef/>
+				<FechaCFEref>2022-09-06</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90220647394</CAE_ID>
+			<DNro>28096</DNro>
+			<HNro>35095</HNro>
+			<FecVenc>2024-04-10</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>H7y4o+lvAcXY8vMmWvB0ghqciomUS3b4BwAogZMYLyg=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>TNY7CbCWqnsy3net3mZP5eiRPqbYcgyLaLd8YcXbVTLYCkiI1MXo3C+4vtud4BjTNSKz7sTzjqD4uRz3Vs8L0GRDVKDJ1gRe7j9wDp3sQDrCgwi3njnTD9Qlq5KZ1AHdsXyr6XZs0ulE71xc53b0mVKm4Xy59qocG5AKBTjPUkHzhkNX6ww2W1O7TxCBIzEe1EbejGk19PqCg13fkGvYD0mIXJDlFMPHZHUawOiTmFVjiI4c21G2srpECs7FcZNxydvK7TIa7RzSgo4KLhrqLIV5iWnz+jobm7h8234uXf3tt+Fp4lWcPs2G8dTv34mn3TwRSke0c0baRK0O0ccU+w==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>37176921983017074566239704558840465695054619252</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>CLIENTE:   33888               Seccion:   ADMINISTRACIONObservaciones:  RETENCION IVA TB. IMPUTACION NRO: 145529 CORRESP A: 9/22</Adenda>
+

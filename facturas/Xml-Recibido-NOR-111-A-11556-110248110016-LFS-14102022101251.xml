@@ -1,0 +1,100 @@
+<CFE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eFact>
+		<TmstFirma>2022-09-06T13:41:00-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>11556</Nro>
+				<NroInterno>0092650001000120220906134027341</NroInterno>
+				<FchEmis>2022-09-06</FchEmis>
+				<MntBruto>1</MntBruto>
+				<FmaPago>1</FmaPago>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>110248110016</RUCEmisor>
+				<RznSoc>ADOLFO ENRIQUE  MARTINEZ</RznSoc>
+				<NomComercial>Parrillada  El Sauce</NomComercial>
+				<EmiSucursal>PARRILLA EL SAUCE</EmiSucursal>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>- 1</DomFiscal>
+				<Ciudad>COSTA DE PANDO</Ciudad>
+				<Departamento>Canelones</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR SA</RznSocRecep>
+				<DirRecep>-</DirRecep>
+				<CiudadRecep>-</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntNetoIVATasaBasica>401.64</MntNetoIVATasaBasica>
+				<IVATasaBasica>22</IVATasaBasica>
+				<MntIVATasaBasica>88.36</MntIVATasaBasica>
+				<MntTotal>490.00</MntTotal>
+				<CantLinDet>001</CantLinDet>
+				<MntPagar>490.00</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>175</Cod>
+				</CodItem>
+				<IndFact>3</IndFact>
+				<NomItem>ALMUERZO</NomItem>
+				<DscItem>ALMUERZO [000CS]</DscItem>
+				<Cantidad>1.000</Cantidad>
+				<UniMed>EA</UniMed>
+				<PrecioUnitario>490.00</PrecioUnitario>
+				<DescuentoMonto>0.00</DescuentoMonto>
+				<MontoItem>490.00</MontoItem>
+			</Item>
+		</Detalle>
+		<MediosPago>
+			<MedioPago>
+				<NroLinMP>1</NroLinMP>
+				<CodMP>002</CodMP>
+				<GlosaMP>Credito</GlosaMP>
+				<OrdenMP>00</OrdenMP>
+				<ValorPago>490.00</ValorPago>
+			</MedioPago>
+		</MediosPago>
+		<Referencia/>
+		<CAEData>
+			<CAE_ID>90211252633</CAE_ID>
+			<DNro>10001</DNro>
+			<HNro>15000</HNro>
+			<FecVenc>2023-08-13</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>FQj4FKjRMG/OEDVvYIkWM3YAcrAjgdFfwJGIWjbdg34=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>YjFugzQ8CHa+Q6Un6KzS/e5Fe2HEk3ySrnfsJ5k8IDKBuHhc+7vQXHtbJEezFeMtwXAzX0y9oqA9O6n52iEgkFwyR9SnigsZF8dw0Ma7vXoqRwwHo/qNn+o02Si9qkfM6qkaCWC1wWkWWZNLQO7nVouXwtV91OXZeUblIE6+eua+7qV9gRf0ud+kxdiXZ6We47dd7nW35X6WvbKFwSFcN7dScrteoL2It3EEaJUuClrb4efNUPDu5zZ5X5PwGy13SDNC5olH/xDkGzsDWpR7Ai1jbsgp5UMpUN3rs8HbRl7MEHgQDgm89iBIt9rjB+lcpOegIg6LrN+EBEXGrka0hg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>508457172188697893752519514814796729725769053191</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>TICKET	LOCAL	CAJA	CAJERO	ORDEN9265	1	1	admin@elsauce	nullGracias por su compra. ELSAU0092650001000120220906134027</Adenda>
+

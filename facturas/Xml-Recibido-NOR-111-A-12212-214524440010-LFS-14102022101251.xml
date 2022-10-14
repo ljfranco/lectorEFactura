@@ -1,0 +1,95 @@
+<CFE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eFact>
+		<TmstFirma>2022-09-16T17:42:41-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>12212</Nro>
+				<NroInterno>7552BEF9-55D1-4199-B811-2A9F2E44217C</NroInterno>
+				<FchEmis>2022-09-05</FchEmis>
+				<FmaPago>1</FmaPago>
+				<IndCobPropia>1</IndCobPropia>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>214524440010</RUCEmisor>
+				<RznSoc>BIRADEN SA</RznSoc>
+				<Telefono>2203 2707</Telefono>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>Grito de Asencio 1359</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR S.A.</RznSocRecep>
+				<DirRecep>Ruta 8 Brig. Gral. J.A. Lavalleja 7407/09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>MONTEVIDEO</DeptoRecep>
+				<PaisRecep>Uruguay</PaisRecep>
+				<InfoAdicional>2514 5570</InfoAdicional>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>USD</TpoMoneda>
+				<TpoCambio>40.883</TpoCambio>
+				<IVATasaMin>10.000</IVATasaMin>
+				<IVATasaBasica>22.000</IVATasaBasica>
+				<MntTotal>0.00</MntTotal>
+				<CantLinDet>1</CantLinDet>
+				<MontoNF>384.79</MontoNF>
+				<MntPagar>384.79</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<IndFact>6</IndFact>
+				<NomItem>Cobranza</NomItem>
+				<Cantidad>1.000</Cantidad>
+				<UniMed>N/A</UniMed>
+				<PrecioUnitario>384.79000</PrecioUnitario>
+				<MontoItem>384.790</MontoItem>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>11882</NroCFERef>
+				<FechaCFEref>2022-07-25</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90211605498</CAE_ID>
+			<DNro>10001</DNro>
+			<HNro>14000</HNro>
+			<FecVenc>2023-10-07</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>Zpko/gG9YI6xEu7L5jsXgRcYsdmzOeooj45Umdko8K8=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>kms9h32G+NKF4LwgL7OGPTG7xyLRRbpWvF40vSorY5q9jV7tmlopMOhOyEMkxU4ie5UyBzFD4UueUDofeaRenKeSFvJ/ij5QDW1At0jhqKGTywDl3jHiAEYr6FzIj/ulykLfwXuq0IVgz7zOQJtw1AChd6i4K9ElamnaSs5V6EKaM2ru2sj+KC3kX4AFcWDyjEaU5GZr0mup4KwQicjY087x+Y02Mfv0pEWbLJTO9gC8X9Kf6t2y8jS6zmgeDn2MKRrPY23lGAXYwEvyOwYjVd9bDcf3ZllV2D7CefZJb90yzewhL0bGfyE+TzSDinj6b1ka7UMG500So+CLli741Q==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>249729848960979854682759393072393846460086633578</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+

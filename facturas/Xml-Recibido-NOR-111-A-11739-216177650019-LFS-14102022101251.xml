@@ -1,0 +1,114 @@
+<CFE xmlns="http://cfe.dgi.gub.uy" version="1.0">
+	<eFact>
+		<TmstFirma>2022-09-08T12:17:58Z</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>11739</Nro>
+				<FchEmis>2022-09-08</FchEmis>
+				<FmaPago>2</FmaPago>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>216177650019</RUCEmisor>
+				<RznSoc>Greentech Ltda.</RznSoc>
+				<NomComercial>Greentech</NomComercial>
+				<CdgDGISucur>6</CdgDGISucur>
+				<DomFiscal>Carreras nacionales 3400 bis</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>Nortesur S.A.</RznSocRecep>
+				<DirRecep>Cno Petirosi 4420</DirRecep>
+				<CiudadRecep>Montevideo</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+				<PaisRecep>Uruguay</PaisRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>USD</TpoMoneda>
+				<TpoCambio>40.926</TpoCambio>
+				<MntNetoIVATasaBasica>150</MntNetoIVATasaBasica>
+				<IVATasaBasica>22</IVATasaBasica>
+				<MntIVATasaBasica>33</MntIVATasaBasica>
+				<MntTotal>183</MntTotal>
+				<CantLinDet>1</CantLinDet>
+				<MntPagar>183</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<CodItem>
+					<TpoCod>Standard</TpoCod>
+					<Cod>SERV. CAL.</Cod>
+				</CodItem>
+				<IndFact>3</IndFact>
+				<NomItem>SERVICIO DE CALIBRACIÓN</NomItem>
+				<DscItem>Calibración al fotómetro MD600</DscItem>
+				<Cantidad>1</Cantidad>
+				<UniMed>Unid</UniMed>
+				<PrecioUnitario>150</PrecioUnitario>
+				<MontoItem>150</MontoItem>
+			</Item>
+		</Detalle>
+		<SubTotInfo>
+			<STI_Item>
+				<NroSTI>1</NroSTI>
+				<GlosaSTI>Subtotal Neto</GlosaSTI>
+				<OrdenSTI>1</OrdenSTI>
+				<ValSubtotSTI>150</ValSubtotSTI>
+			</STI_Item>
+			<STI_Item>
+				<NroSTI>2</NroSTI>
+				<GlosaSTI>Subtotal Bruto</GlosaSTI>
+				<OrdenSTI>2</OrdenSTI>
+				<ValSubtotSTI>183</ValSubtotSTI>
+			</STI_Item>
+		</SubTotInfo>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<IndGlobal>1</IndGlobal>
+				<RazonRef>Documento no codificado</RazonRef>
+				<FechaCFEref>2022-09-08</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90210687636</CAE_ID>
+			<DNro>10001</DNro>
+			<HNro>15000</HNro>
+			<FecVenc>2023-05-12</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>dV3/0gvu4IwCXS5tooiW4Beu3MQ=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>Azp2fcqv3Noo/3MTdUfdY15fzMd1szRZ63LiFq17vm51sjXDr3bGFli5vzFqDTSjG4W/hmtkIEG/Pa4/1Ax47WnLF4FR8tLwidNTQrjbV4FgJdjHJ/KE599ztwMhimcVw5hUr7YrvQZ9TwwfZFAA63I43o9Y3iUKcMdHpqyx+xCJwq624wG8K/YVjmBTnCu+KqH+cDPzEyitxJ8UnaXTV1Z8IhnEGPld7VoaOCN7WZoKFemAFM8XlxqowU6UW0cI5buhW2jBoeNb276twuHFc5ZcOrNR9B4hZifz7caVLrRLIA58cUjQ827rQ7OlnN+TqPO+EQFj9s52GAv8azBzRg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>183808734181927172951127356524271417134299092806</X509SerialNumber>
+				</X509IssuerSerial>
+				<X509Certificate>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</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda xmlns="http://cfe.dgi.gub.uy">
+	<TextoLibre>Comentarios: Calibración al fotómetro MD600</TextoLibre>
+</Adenda>
+

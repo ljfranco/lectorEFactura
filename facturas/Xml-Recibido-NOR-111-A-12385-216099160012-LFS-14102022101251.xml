@@ -1,0 +1,98 @@
+<CFE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eFact>
+		<TmstFirma>2022-09-08T10:34:27-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>12385</Nro>
+				<NroInterno>C61EF3B6-CF47-4C0A-8C9F-BD3C1FBC59AF</NroInterno>
+				<FchEmis>2022-09-08</FchEmis>
+				<MntBruto>1</MntBruto>
+				<FmaPago>1</FmaPago>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>216099160012</RUCEmisor>
+				<RznSoc>SUPLACOR S.A.</RznSoc>
+				<Telefono>46240940</Telefono>
+				<Telefono>094038421</Telefono>
+				<CorreoEmisor>nortemetal@hotmail.com</CorreoEmisor>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>Aldo Regusci 076</DomFiscal>
+				<Ciudad>Rivera</Ciudad>
+				<Departamento>Rivera</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR S .A</RznSocRecep>
+				<DirRecep>CAMINO MALDONADO 7407 AL 09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>MONTEVIDEO</DeptoRecep>
+				<PaisRecep>Uruguay</PaisRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntNetoIvaTasaMin>2000</MntNetoIvaTasaMin>
+				<MntNetoIVATasaBasica>800</MntNetoIVATasaBasica>
+				<IVATasaMin>10.000</IVATasaMin>
+				<IVATasaBasica>22.000</IVATasaBasica>
+				<MntIVATasaMin>200</MntIVATasaMin>
+				<MntIVATasaBasica>176</MntIVATasaBasica>
+				<MntTotal>3176</MntTotal>
+				<CantLinDet>2</CantLinDet>
+				<MntPagar>3176</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<IndFact>2</IndFact>
+				<NomItem>HOSPEDAJE</NomItem>
+				<Cantidad>2</Cantidad>
+				<UniMed>N/A</UniMed>
+				<PrecioUnitario>1100</PrecioUnitario>
+				<MontoItem>2200</MontoItem>
+			</Item>
+			<Item>
+				<NroLinDet>2</NroLinDet>
+				<IndFact>3</IndFact>
+				<NomItem>CENA</NomItem>
+				<Cantidad>2</Cantidad>
+				<UniMed>N/A</UniMed>
+				<PrecioUnitario>488</PrecioUnitario>
+				<MontoItem>976</MontoItem>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90220471822</CAE_ID>
+			<DNro>12001</DNro>
+			<HNro>13800</HNro>
+			<FecVenc>2024-03-14</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>dlJfgoAh+pK7PhoqTy/FY3Bbb9oKPVXZT7olawjvtHM=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>XSeX0vJVWuHegGzB4i1Eq+ybK2+0z1smdrSYJQglfJMzK3S2u3EY+TcFYAPHU4L7MDFOhR8/JVbE7h4Tll0JAnfpyNE79f0XUN8THdR94OwWrKuFqTLN4/mMYd5fjKYOPyOWmuC8dReorKlngEAo55TsQmNF/x7mrqBGXISkrQFsoRHQfnETo/qbv+IAZkZtyqoFi8HOnfgGCmiLOY7+21jvGkiNCO3QDlxOhs294+X5PqJztzbhqSdBIJ9UHUxrKtx0ZlfzbAlf+7qJ1Fj/+56dWJwTxVWosVWr5YdYx6TeaM0CnIjC5C3CduNWsq8CGPpeJLkxXHbV0VO8g+tl6g==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>12433417749350752578798448597151149760478308329</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+

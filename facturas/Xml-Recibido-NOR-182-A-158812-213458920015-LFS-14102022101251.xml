@@ -1,0 +1,454 @@
+<CFE version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-06T13:08:44.386-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>158812</Nro>
+				<NroInterno>061493</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>213458920015</RUCEmisor>
+				<RznSoc>ODALER S.A.</RznSoc>
+				<NomComercial>ODALER S.A.</NomComercial>
+				<GiroEmis>SUPERMERCADO</GiroEmis>
+				<Telefono>26018050</Telefono>
+				<CorreoEmisor>atcliente@odaler.com.uy</CorreoEmisor>
+				<EmiSucursal>CENTRAL</EmiSucursal>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>AV.GIANNATTASIO Y A LA PLAYA</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR LTDA.</RznSocRecep>
+				<DirRecep>RUTA 8 J.A.LAVALLEJA 7407-09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+				<PaisRecep>URUGUAY</PaisRecep>
+				<CP>12200</CP>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<TpoCambio>1.000</TpoCambio>
+				<MntTotRetenido>19166.95</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<ValRetPerc>19166.95</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<Tasa>50.000</Tasa>
+					<MntSujetoaRet>38333.82</MntSujetoaRet>
+					<ValRetPerc>19166.95</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie/>
+				<NroCFERef>251721</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-01</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>2</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie/>
+				<NroCFERef>252135</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-09</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>3</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie/>
+				<NroCFERef>252891</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-15</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>4</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie/>
+				<NroCFERef>253352</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-21</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>5</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie/>
+				<NroCFERef>259835</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-29</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>6</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>251594</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-01</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>7</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>251781</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-01</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>8</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252045</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-08</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>9</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252308</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-08</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>10</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252839</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-15</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>11</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252840</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-15</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>12</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253363</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-22</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>13</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>259617</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-29</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>14</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>259618</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-29</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90210769195</CAE_ID>
+			<DNro>150001</DNro>
+			<HNro>200000</HNro>
+			<FecVenc>2023-05-26</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>egC76Pz/LH2ycgW70EpPVQQ0Zag=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>JTsf6EPsAxAa9/obN2NwLL6s/fPBk4uitEvMBrjj3b8A0kLNtCOVjmUzRWbIowh0qYyukYYFiXqf+zl6HjlZVEd+jo07AdNdT1iSxnRKrt1Hlth+TmnBeWtZtruAPuMXcB/pjyfSutcTU2ev7EVpoqBatnGhIZcAy9WP/giprrhNPKsdpMjZzVRUOGeoPK6zA2PEUfNGVMohbxJQ4Ii8GZAQwVMLjH1XzA9HOacG8WaOgTBNmX0U4foaQDwRRpqgadqsdo/oZ2bbCyOz7nCn6VuUZwotmS7owLNeRE349lZLGkIGQbXu0VliSQOsNsRxBQ1ERdPZwEYLPMjbGP27Jw==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>419311246787466562963063849267192047400669414260</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>
+	<Rondanet>
+		<A01>
+			<Numerar>1</Numerar>
+			<Firmar>1</Firmar>
+			<NroDocInterno>61493</NroDocInterno>
+			<SerieDocInterna>0</SerieDocInterna>
+			<UsuarioQueEmite>vvargas</UsuarioQueEmite>
+			<EstacionQueEmite>1</EstacionQueEmite>
+		</A01>
+		<A03>
+			<PublicarSiempre>1</PublicarSiempre>
+		</A03>
+		<A04>
+			<Columnas>
+				<Columna>
+					<Titulo>Cod.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Serie.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Nro.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Fec.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Moneda</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovMn</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovIng</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Porc.Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpNetoGravado</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Sucursal</Titulo>
+				</Columna>
+			</Columnas>
+			<Lineas>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>251594</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>1157,00</Dato>
+					<Dato>1157,00</Dato>
+					<Dato>50,000</Dato>
+					<Dato>2313,99</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>251781</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>4259,38</Dato>
+					<Dato>4259,38</Dato>
+					<Dato>50,000</Dato>
+					<Dato>8518,76</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato/>
+					<Dato>251721</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>864,25</Dato>
+					<Dato>864,25</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1728,48</Dato>
+					<Dato>Geant Pichincha</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252045</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>6108,47</Dato>
+					<Dato>6108,47</Dato>
+					<Dato>50,000</Dato>
+					<Dato>12216,93</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252308</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>554,38</Dato>
+					<Dato>554,38</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1108,74</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato/>
+					<Dato>252135</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>287,81</Dato>
+					<Dato>287,81</Dato>
+					<Dato>50,000</Dato>
+					<Dato>575,61</Dato>
+					<Dato>Geant Pichincha</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252839</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>745,20</Dato>
+					<Dato>745,20</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1490,39</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252840</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>244,60</Dato>
+					<Dato>244,60</Dato>
+					<Dato>50,000</Dato>
+					<Dato>489,20</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato/>
+					<Dato>252891</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>164,17</Dato>
+					<Dato>164,17</Dato>
+					<Dato>50,000</Dato>
+					<Dato>328,34</Dato>
+					<Dato>Geant Pichincha</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato/>
+					<Dato>253352</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>370,91</Dato>
+					<Dato>370,91</Dato>
+					<Dato>50,000</Dato>
+					<Dato>741,82</Dato>
+					<Dato>Geant Pichincha</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253363</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>310,87</Dato>
+					<Dato>310,87</Dato>
+					<Dato>50,000</Dato>
+					<Dato>621,74</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>259617</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>2685,66</Dato>
+					<Dato>2685,66</Dato>
+					<Dato>50,000</Dato>
+					<Dato>5371,32</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>259618</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>909,37</Dato>
+					<Dato>909,37</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1818,74</Dato>
+					<Dato>Geant</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato/>
+					<Dato>259835</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>504,88</Dato>
+					<Dato>504,88</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1009,76</Dato>
+					<Dato>Geant Pichincha</Dato>
+				</Linea>
+				<Linea estilo="total">
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato>TOTAL</Dato>
+					<Dato>$</Dato>
+					<Dato>19166,95</Dato>
+					<Dato>19166,95</Dato>
+					<Dato/>
+					<Dato>38333,82</Dato>
+					<Dato/>
+				</Linea>
+			</Lineas>
+		</A04>
+	</Rondanet>
+</Adenda>
+

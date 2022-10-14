@@ -2,7 +2,7 @@
 
 Aplicación Web para obtener archivos para importar al sistema desde efacturas xml
 
-TODO
+//TODO
 Datos Faltantes:
 
     Archivo Cabezales:
@@ -22,3 +22,5 @@ Datos Faltantes:
 
     Archgivo Vencimiento:
         - PROVCOD - Codigo de proveedor <!--//DONE -->
+
+

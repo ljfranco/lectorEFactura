@@ -1,0 +1,94 @@
+<DGICFE:CFE xmlns:DGICFE="http://cfe.dgi.gub.uy" version="1.0">
+	<DGICFE:eResg>
+		<DGICFE:TmstFirma>2022-09-08T16:53:09-03:00</DGICFE:TmstFirma>
+		<DGICFE:Encabezado>
+			<DGICFE:IdDoc>
+				<DGICFE:TipoCFE>182</DGICFE:TipoCFE>
+				<DGICFE:Serie>A</DGICFE:Serie>
+				<DGICFE:Nro>59103</DGICFE:Nro>
+				<DGICFE:FchEmis>2022-09-08</DGICFE:FchEmis>
+			</DGICFE:IdDoc>
+			<DGICFE:Emisor>
+				<DGICFE:RUCEmisor>060006080018</DGICFE:RUCEmisor>
+				<DGICFE:RznSoc>SUCESORES DE JORGE ESTEFAN SA</DGICFE:RznSoc>
+				<DGICFE:NomComercial>LOCAL 2 SUPERMERCADO ESTEFAN</DGICFE:NomComercial>
+				<DGICFE:GiroEmis>GIRO EMISOR A DEFINIR</DGICFE:GiroEmis>
+				<DGICFE:Telefono>4808</DGICFE:Telefono>
+				<DGICFE:CdgDGISucur>1</DGICFE:CdgDGISucur>
+				<DGICFE:DomFiscal>ALFREDO J. PUIG 611</DGICFE:DomFiscal>
+				<DGICFE:Ciudad>TRINIDAD</DGICFE:Ciudad>
+				<DGICFE:Departamento>FLORES</DGICFE:Departamento>
+			</DGICFE:Emisor>
+			<DGICFE:Receptor>
+				<DGICFE:TipoDocRecep>2</DGICFE:TipoDocRecep>
+				<DGICFE:CodPaisRecep>UY</DGICFE:CodPaisRecep>
+				<DGICFE:DocRecep>210218660014</DGICFE:DocRecep>
+				<DGICFE:RznSocRecep>NORTESUR</DGICFE:RznSocRecep>
+				<DGICFE:DirRecep>GRAL.LAVALLEJA 7407</DGICFE:DirRecep>
+				<DGICFE:CiudadRecep/>
+				<DGICFE:DeptoRecep>MONTEVIDEO</DGICFE:DeptoRecep>
+			</DGICFE:Receptor>
+			<DGICFE:Totales>
+				<DGICFE:TpoMoneda>UYU</DGICFE:TpoMoneda>
+				<DGICFE:MntTotRetenido>2270.17</DGICFE:MntTotRetenido>
+				<DGICFE:MntTotCredFisc>0.00</DGICFE:MntTotCredFisc>
+				<DGICFE:CantLinDet>1</DGICFE:CantLinDet>
+				<DGICFE:RetencPercep>
+					<DGICFE:CodRet>2183010</DGICFE:CodRet>
+					<DGICFE:ValRetPerc>2270.17</DGICFE:ValRetPerc>
+				</DGICFE:RetencPercep>
+			</DGICFE:Totales>
+		</DGICFE:Encabezado>
+		<DGICFE:Detalle>
+			<DGICFE:Item>
+				<DGICFE:NroLinDet>1</DGICFE:NroLinDet>
+				<DGICFE:RetencPercep>
+					<DGICFE:CodRet>2183010</DGICFE:CodRet>
+					<DGICFE:Tasa>0.500</DGICFE:Tasa>
+					<DGICFE:MntSujetoaRet>4540.33</DGICFE:MntSujetoaRet>
+					<DGICFE:ValRetPerc>2270.17</DGICFE:ValRetPerc>
+				</DGICFE:RetencPercep>
+			</DGICFE:Item>
+		</DGICFE:Detalle>
+		<DGICFE:SubTotInfo/>
+		<DGICFE:Referencia>
+			<DGICFE:Referencia>
+				<DGICFE:NroLinRef>1</DGICFE:NroLinRef>
+				<DGICFE:TpoDocRef>111</DGICFE:TpoDocRef>
+				<DGICFE:Serie>1</DGICFE:Serie>
+				<DGICFE:NroCFERef>252092</DGICFE:NroCFERef>
+				<DGICFE:FechaCFEref>2022-09-05</DGICFE:FechaCFEref>
+			</DGICFE:Referencia>
+		</DGICFE:Referencia>
+		<DGICFE:CAEData>
+			<DGICFE:CAE_ID>90201619798</DGICFE:CAE_ID>
+			<DGICFE:DNro>43001</DGICFE:DNro>
+			<DGICFE:HNro>443000</DGICFE:HNro>
+			<DGICFE:FecVenc>2022-11-12</DGICFE:FecVenc>
+		</DGICFE:CAEData>
+	</DGICFE:eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>ofC2AKRUvau5rVTLicr5vkRkdx8=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>W5Udz0hUslc6FxekqOv+b0IQf5c7pDcnmGBHKVMdistHgxi2MK3wutM+3pkN9/luAl82cs8C096+AQ0S2HDTR8WkTvcjnISlUtAJXqacRN2Ky74AnM7KOO1V04pTcRKNHT2aKpyeVPIegx2vLH0DOYG97oI8tfHtiTd5NIPQ6GBeC+PfXVh7/ggrFsW211nm1g290rpImL2UufyBGz0p1rl2fvMws40k9AGxlJSRjOQ88+CHrJtBmtpjjuHi2RaTbm4aj2/h8yC/GyIRLad4Caa/t0IOfj1D9odyyQ7o9yqH3xkrN+sg6DaoHYPW+uATD17SkahPxm2i3Mjo4JQXSQ==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509SubjectName>CN=ESTEFAN SUPERMERCADOS,O=SUCESORES DE JORGE ESTEFAN S.A.,2.5.4.5=#130f525543303630303036303830303138,ST=Montevideo,C=UY</X509SubjectName>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>468594860129799780485411078260729483835046705204</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</DGICFE:CFE>
+

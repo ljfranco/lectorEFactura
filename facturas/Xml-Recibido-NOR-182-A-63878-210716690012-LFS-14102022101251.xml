@@ -1,0 +1,244 @@
+<CFE version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-06T09:07:34.244-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>63878</Nro>
+				<NroInterno>027876</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>210716690012</RUCEmisor>
+				<RznSoc>LA CABAÑA S.R.L.</RznSoc>
+				<NomComercial>LA CABAÑA S.R.L.</NomComercial>
+				<GiroEmis>SUPERMERCADO</GiroEmis>
+				<Telefono>26018050</Telefono>
+				<CorreoEmisor>atcliente@disco.com.uy</CorreoEmisor>
+				<EmiSucursal>CENTRAL</EmiSucursal>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>NACIONES UNIDAS Y COSTANERA</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR LTDA.</RznSocRecep>
+				<DirRecep>RUTA 8 J.A.LAVALLEJA 7407-09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+				<PaisRecep>URUGUAY</PaisRecep>
+				<CP>12200</CP>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<TpoCambio>1.000</TpoCambio>
+				<MntTotRetenido>1294.04</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<ValRetPerc>1294.04</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<Tasa>50.000</Tasa>
+					<MntSujetoaRet>2588.06</MntSujetoaRet>
+					<ValRetPerc>1294.04</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>210403</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-05</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>2</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>210533</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-12</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>3</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>252498</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-10</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>4</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253587</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-23</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90210769241</CAE_ID>
+			<DNro>60001</DNro>
+			<HNro>80000</HNro>
+			<FecVenc>2023-05-26</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>+qhpmX6WssufDa50ia12qheylwU=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>Saf4VUeVgsJpETJ4o5Rq9MsSjE4WTqBNPYu98lOmlt/xowm8sXN5QVsmwOALmLdRHTgHWaWHHKBLPCi+RuAKTT9Kykn8BusarIg6bWfwsWkPt+kWT/QdC2jWwDeaj3KO08Z30Qwjlm5hKXC6s7mzdmmNB+6l6tgW0rAy7hR1jV4zKnNr4ByBAmZek1WqivBjuZfIW4wEHCtgGi8/tCv+mcv0eZysx5hoXAtRrMtqy9gDSF1Qm2f8380pDjOyddjRCWvMp2U/zzGxWTAUeaeSUc3/pO85Q5ODWhdTLlfH9MRDdlm4NZJMsDtd359ggUqhrb5APR4QWBry3CmkxL++vw==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>202800328102100061702832270626733153148756693859</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>
+	<Rondanet>
+		<A01>
+			<Numerar>1</Numerar>
+			<Firmar>1</Firmar>
+			<NroDocInterno>27876</NroDocInterno>
+			<SerieDocInterna>0</SerieDocInterna>
+			<UsuarioQueEmite>vvargas</UsuarioQueEmite>
+			<EstacionQueEmite>1</EstacionQueEmite>
+		</A01>
+		<A03>
+			<PublicarSiempre>1</PublicarSiempre>
+		</A03>
+		<A04>
+			<Columnas>
+				<Columna>
+					<Titulo>Cod.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Serie.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Nro.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Fec.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Moneda</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovMn</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovIng</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Porc.Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpNetoGravado</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Sucursal</Titulo>
+				</Columna>
+			</Columnas>
+			<Lineas>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>210403</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>84,32</Dato>
+					<Dato>84,32</Dato>
+					<Dato>50,000</Dato>
+					<Dato>168,63</Dato>
+					<Dato>La Cabaña 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>252498</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>500,03</Dato>
+					<Dato>500,03</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1000,06</Dato>
+					<Dato>La Cabaña 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>210533</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>168,64</Dato>
+					<Dato>168,64</Dato>
+					<Dato>50,000</Dato>
+					<Dato>337,27</Dato>
+					<Dato>La Cabaña 01</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253587</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>541,05</Dato>
+					<Dato>541,05</Dato>
+					<Dato>50,000</Dato>
+					<Dato>1082,10</Dato>
+					<Dato>La Cabaña 01</Dato>
+				</Linea>
+				<Linea estilo="total">
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato>TOTAL</Dato>
+					<Dato>$</Dato>
+					<Dato>1294,04</Dato>
+					<Dato>1294,04</Dato>
+					<Dato/>
+					<Dato>2588,06</Dato>
+					<Dato/>
+				</Linea>
+			</Lineas>
+		</A04>
+	</Rondanet>
+</Adenda>
+

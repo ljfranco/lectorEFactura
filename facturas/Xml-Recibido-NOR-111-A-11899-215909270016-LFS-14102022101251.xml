@@ -1,0 +1,103 @@
+<CFE xmlns="http://cfe.dgi.gub.uy" version="1.0">
+	<eFact>
+		<TmstFirma>2022-09-26T17:56:59-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>11899</Nro>
+				<FchEmis>2022-09-26</FchEmis>
+				<FmaPago>2</FmaPago>
+				<FchVenc>2022-10-26</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>215909270016</RUCEmisor>
+				<RznSoc>ALVARO PALEO S.A.</RznSoc>
+				<NomComercial>ALVARO PALEO</NomComercial>
+				<CdgDGISucur>3</CdgDGISucur>
+				<DomFiscal>LOPEZ CNO. CARLOS A 6480</DomFiscal>
+				<Ciudad>MONTEVIDEO</Ciudad>
+				<Departamento>MONTEVIDEO</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR S.A.</RznSocRecep>
+				<DirRecep>RUTA 8 BRIG.GRAL.J.A.LAVALLEJA 7407/09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>USD</TpoMoneda>
+				<TpoCambio>40.865</TpoCambio>
+				<MntNoGrv>2475.00</MntNoGrv>
+				<MntNetoIVATasaBasica>825.00</MntNetoIVATasaBasica>
+				<IVATasaMin>10.000</IVATasaMin>
+				<IVATasaBasica>22.000</IVATasaBasica>
+				<MntIVATasaBasica>181.50</MntIVATasaBasica>
+				<MntTotal>3481.50</MntTotal>
+				<CantLinDet>2</CantLinDet>
+				<MntPagar>3481.50</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>3</Cod>
+				</CodItem>
+				<IndFact>3</IndFact>
+				<NomItem>FLETE IMP.TERRITORIO NAC.GRAVADO</NomItem>
+				<Cantidad>1</Cantidad>
+				<UniMed>N/A</UniMed>
+				<PrecioUnitario>825.00</PrecioUnitario>
+				<MontoItem>825.00</MontoItem>
+			</Item>
+			<Item>
+				<NroLinDet>2</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>4</Cod>
+				</CodItem>
+				<IndFact>1</IndFact>
+				<NomItem>FLETE IMP.TERRITORIO EXT.NO GRAVADO</NomItem>
+				<Cantidad>1</Cantidad>
+				<UniMed>N/A</UniMed>
+				<PrecioUnitario>2475.00</PrecioUnitario>
+				<MontoItem>2475.00</MontoItem>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90210815472</CAE_ID>
+			<DNro>10001</DNro>
+			<HNro>12000</HNro>
+			<FecVenc>2023-06-02</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>MUSADEK8L09t9hBm8R33qZieJII=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>GaozRvH8kw7SQIzb7GCTN+yd12mSbALb32wC98JQkxU/f8hZQ87a+MNpXqb1Tgnk/WXvJ0qkLrZ8NxDaGGJ+qip77hTbd13KfOqHkNFQPSXCQzXmLWofzyJU7XLVDfix8lqo1akQ9/PBlYwLRk81dWmdmKrlYC3zxZSFugRl+FFJEzUeh2PfU9QRlXawqW3TdgAuA/cYVdvArsLMO35R8dbqK7FonXCb/Ue9OYnKCM4AYH91wqGrTeWvR9Z2CpnK7ObAZcQQ+7dbZCjZfCc0GXTs8Aus5IIYBW8YDytFRQHNnYVjewVZ3FOq3gZxPGNvRe0XDlhjf3o8sbEvxui6tg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>167994898302194793959873520340167412202101456903</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>SON DOLARES AMERICANOS 3481.50Por el transporte de 26.920kilos ACIDO FOSFORICO 85% desde ICL Brasil - Cajati (San Pablo, BR) hasta Nortesur S.A. (Montevideo, UY), por el equipo STP 6653- STP 7689, fecha de embarque 26 de Setiembre.-Carta de Porte 69608. Conocimiento BR119500920.-Factura 20010580.-</Adenda>
+

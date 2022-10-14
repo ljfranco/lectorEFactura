@@ -1,0 +1,286 @@
+<CFE version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-06T02:32:50.981-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>49868</Nro>
+				<NroInterno>023362</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>210650500016</RUCEmisor>
+				<RznSoc>MERCADOS DEVOTO S.A.</RznSoc>
+				<NomComercial>MERCADOS DEVOTO S.A.</NomComercial>
+				<GiroEmis>SUPERMERCADO</GiroEmis>
+				<Telefono>26000707</Telefono>
+				<CorreoEmisor>atcliente@devoto.com.uy</CorreoEmisor>
+				<EmiSucursal>CENTRAL</EmiSucursal>
+				<CdgDGISucur>40</CdgDGISucur>
+				<DomFiscal>GRAL. PAZ 1404</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR LTDA.</RznSocRecep>
+				<DirRecep>RUTA 8 J.A.LAVALLEJA 7407-09</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+				<PaisRecep>URUGUAY</PaisRecep>
+				<CP>12200</CP>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<TpoCambio>1.000</TpoCambio>
+				<MntTotRetenido>1101.64</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<ValRetPerc>1101.64</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<Tasa>50.000</Tasa>
+					<MntSujetoaRet>2203.24</MntSujetoaRet>
+					<ValRetPerc>1101.64</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<Referencia>
+			<Referencia>
+				<NroLinRef>1</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>251927</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-05</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>2</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>251928</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-05</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>3</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253047</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-19</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>4</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253048</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-19</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>5</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253112</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-19</FechaCFEref>
+			</Referencia>
+			<Referencia>
+				<NroLinRef>6</NroLinRef>
+				<TpoDocRef>111</TpoDocRef>
+				<Serie>A</Serie>
+				<NroCFERef>253113</NroCFERef>
+				<RazonRef>Agrupa retenciones del titular 23068</RazonRef>
+				<FechaCFEref>2022-09-19</FechaCFEref>
+			</Referencia>
+		</Referencia>
+		<CAEData>
+			<CAE_ID>90210769136</CAE_ID>
+			<DNro>45001</DNro>
+			<HNro>65000</HNro>
+			<FecVenc>2023-05-26</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>g4gqwJqgMuHu1W0ae6uA+UMC3+o=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>SH18+SKnBh6rNzaq8/zwkGIouFkXaeGWrERhSit3gZSJkIuQ3yKMrNu4tSfdMMMF8u5Ezx7caJrhSdyySCNJdzlcXMxeoESO7f+2wyZacCVAP+JwWvV25gmoDKSSeyb30ryQtOvRlXki3WaBSSDItwmkSdSiFSoQPPWccKoFMBZWKI4so4z9VsZ1NPf6gr3nmLG1SuYRr7ooA9iybsEyXm8ujTNoo+3JshBSOX+k7W44e9WUZcppvco/ZE9l4Kzc9Tb+hne5DmFNO8JoiEJ9mDDnRN6w3qtXKAqYLoRgApH0CzDXwrpoDVYCoAJv/W8J/glrzsouiO+2mReQvDULbQ==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>445364341019865316265912139162068188380317042315</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>
+	<Rondanet>
+		<A01>
+			<Numerar>1</Numerar>
+			<Firmar>1</Firmar>
+			<NroDocInterno>23362</NroDocInterno>
+			<SerieDocInterna>0</SerieDocInterna>
+			<UsuarioQueEmite>rguedes</UsuarioQueEmite>
+			<EstacionQueEmite>1</EstacionQueEmite>
+		</A01>
+		<A03>
+			<PublicarSiempre>1</PublicarSiempre>
+		</A03>
+		<A04>
+			<Columnas>
+				<Columna>
+					<Titulo>Cod.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Serie.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Nro.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Fec.Doc</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>Moneda</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovMn</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>ImpMovIng</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Porc.Impuesto</Titulo>
+				</Columna>
+				<Columna>
+					<Titulo>ImpNetoGravado</Titulo>
+					<Alineacion>Der</Alineacion>
+				</Columna>
+				<Columna>
+					<Titulo>Sucursal</Titulo>
+				</Columna>
+			</Columnas>
+			<Lineas>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>251928</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>100,01</Dato>
+					<Dato>100,01</Dato>
+					<Dato>50,000</Dato>
+					<Dato>200,01</Dato>
+					<Dato>Devoto Express Cno.Carrasco y Cno.Brunel</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>251927</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>240,33</Dato>
+					<Dato>240,33</Dato>
+					<Dato>50,000</Dato>
+					<Dato>480,65</Dato>
+					<Dato>Devoto Express Bulevar II</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253048</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>240,33</Dato>
+					<Dato>240,33</Dato>
+					<Dato>50,000</Dato>
+					<Dato>480,65</Dato>
+					<Dato>Devoto Express Cno.Carrasco y Cno.Brunel</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253047</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>240,33</Dato>
+					<Dato>240,33</Dato>
+					<Dato>50,000</Dato>
+					<Dato>480,65</Dato>
+					<Dato>Devoto Express Libertador</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253113</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>140,32</Dato>
+					<Dato>140,32</Dato>
+					<Dato>50,000</Dato>
+					<Dato>280,64</Dato>
+					<Dato>Devoto Express Yaguaron</Dato>
+				</Linea>
+				<Linea>
+					<Dato>201</Dato>
+					<Dato>A</Dato>
+					<Dato>253112</Dato>
+					<Dato>30/09/2022</Dato>
+					<Dato>Retencion Iva tasa básica  (Merc)</Dato>
+					<Dato>$</Dato>
+					<Dato>140,32</Dato>
+					<Dato>140,32</Dato>
+					<Dato>50,000</Dato>
+					<Dato>280,64</Dato>
+					<Dato>Devoto Express Bulevar III</Dato>
+				</Linea>
+				<Linea estilo="total">
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato/>
+					<Dato>TOTAL</Dato>
+					<Dato>$</Dato>
+					<Dato>1101,64</Dato>
+					<Dato>1101,64</Dato>
+					<Dato/>
+					<Dato>2203,24</Dato>
+					<Dato/>
+				</Linea>
+			</Lineas>
+		</A04>
+	</Rondanet>
+</Adenda>
+

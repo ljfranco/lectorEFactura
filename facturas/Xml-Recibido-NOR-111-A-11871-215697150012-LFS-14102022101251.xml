@@ -1,0 +1,119 @@
+<CFE version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eFact>
+		<TmstFirma>2022-10-06T13:29:47-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>11871</Nro>
+				<NroInterno>A8209</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+				<PeriodoDesde>2022-09-01</PeriodoDesde>
+				<PeriodoHasta>2022-09-30</PeriodoHasta>
+				<FmaPago>2</FmaPago>
+				<FchVenc>2022-10-06</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>215697150012</RUCEmisor>
+				<RznSoc>CAFPADU</RznSoc>
+				<Telefono>2924 0221</Telefono>
+				<EmiSucursal>CASA CENTRAL</EmiSucursal>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>Av. del Libertador 1955</DomFiscal>
+				<Ciudad>MONTEVIDEO</Ciudad>
+				<Departamento>Montevideo</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>(5386) NORTESUR S.A.</RznSocRecep>
+				<DirRecep>Ruta 8 Km. 14 7407/09, Montevideo</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+				<PaisRecep>-</PaisRecep>
+				<CompraID/>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<TpoCambio>1</TpoCambio>
+				<MntNoGrv>1450</MntNoGrv>
+				<MntNetoIvaTasaMin>0</MntNetoIvaTasaMin>
+				<MntNetoIVATasaBasica>6750</MntNetoIVATasaBasica>
+				<IVATasaMin>10</IVATasaMin>
+				<IVATasaBasica>22</IVATasaBasica>
+				<MntIVATasaMin>0</MntIVATasaMin>
+				<MntIVATasaBasica>1485</MntIVATasaBasica>
+				<MntTotal>9685</MntTotal>
+				<CantLinDet>2</CantLinDet>
+				<MontoNF>0</MontoNF>
+				<MntPagar>9685</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>13</Cod>
+				</CodItem>
+				<IndFact>3</IndFact>
+				<NomItem> Publicidad Revista Decision</NomItem>
+				<DscItem/>
+				<Cantidad>1</Cantidad>
+				<UniMed>Und.</UniMed>
+				<PrecioUnitario>6750</PrecioUnitario>
+				<DescuentoPct>0</DescuentoPct>
+				<DescuentoMonto>0</DescuentoMonto>
+				<MontoItem>6750</MontoItem>
+			</Item>
+			<Item>
+				<NroLinDet>2</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>20</Cod>
+				</CodItem>
+				<IndFact>1</IndFact>
+				<NomItem> Cuota Social Proveedor 2</NomItem>
+				<DscItem/>
+				<Cantidad>1</Cantidad>
+				<UniMed>Und.</UniMed>
+				<PrecioUnitario>1450</PrecioUnitario>
+				<DescuentoPct>0</DescuentoPct>
+				<DescuentoMonto>0</DescuentoMonto>
+				<MontoItem>1450</MontoItem>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90220242106</CAE_ID>
+			<DNro>10001</DNro>
+			<HNro>15000</HNro>
+			<FecVenc>2024-02-08</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>pGsGL9mkVhbN8aUuI/zqaB6+cS8=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>mswKVr89ETmuhx0D6x/Hy8TvPtyD4PPHd5hJ3L5NuASK5socZrwHd27PROOOmuj661XzeYMLxeZ9afUTpg9Jx/w8/lYqQHLqTQ+0OAdUvoJzWLNO1BxTHgYkkFTajrDBLgnwWT9IKui3/W3DabRmE0UolPecEsJBZMsjWdx/9gVW296Q7hk5tfTNqWEXsDKlELm2k8O5zWyUpxK6jk3fAbPUw4W0IrUOarmsrgBTV18vcAtkIwd+ruc1aZw/x1Bcl/S+y4RNyEpOo9+WjB5LYfZiYP9RJiRKGrror4GSCH35Gy3rn8Gtqiqx3UOerAB+MAdNFfTkSVkb39H7ac2QBg==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>449221106205037070714896550776343297753525867360</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda>SETIEMBRE 2022 - Venta Crédito A 8209&lt;br&gt;&lt;br&gt;</Adenda>
+

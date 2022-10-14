@@ -1,0 +1,78 @@
+<CFE xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eResg>
+		<TmstFirma>2022-10-12T12:27:33-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>182</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>25963</Nro>
+				<NroInterno>A0FBF044-CC83-45BE-7D21-377F83F1B350</NroInterno>
+				<FchEmis>2022-09-30</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>216996650015</RUCEmisor>
+				<RznSoc>HOMECENTER SODIMAC S.A.</RznSoc>
+				<CorreoEmisor>mparietti</CorreoEmisor>
+				<CdgDGISucur>8</CdgDGISucur>
+				<DomFiscal>Calle Arizona 865</DomFiscal>
+				<Ciudad>Ciudad de la Costa</Ciudad>
+				<Departamento>Canelones</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>Nortesur S.A</RznSocRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntTotRetenido>16426.55</MntTotRetenido>
+				<CantLinDet>1</CantLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<ValRetPerc>16426.55</ValRetPerc>
+				</RetencPercep>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<RetencPercep>
+					<CodRet>2183165</CodRet>
+					<Tasa>50</Tasa>
+					<MntSujetoaRet>32853.1</MntSujetoaRet>
+					<ValRetPerc>16426.55</ValRetPerc>
+				</RetencPercep>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90221533309</CAE_ID>
+			<DNro>25851</DNro>
+			<HNro>35850</HNro>
+			<FecVenc>2024-08-25</FecVenc>
+		</CAEData>
+	</eResg>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>Ri9EVqMREdE7H6GtaujnW3rIeNM=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>BGUUS19pzEAJROtbs02MdsVcj7C9nz0zL/kLK4J5c474EFAnrjwb2O7Bhog5FUiUta23paMxOzW/JTnG0TmFj50RgfTRUkPI1VVssbARRPzO6wXsRSz+UgAbIX6bfe8VCaRqrM830pn4ZK2/OHbP71P1hA8SMYBvrmGqPxWuxUBGKCutclPl3LWQNNxReY4Mp4wuNK9T4Uu6PnuZOdYdmF5j+URY50VBc91hW57hFoNOFLL0668iTkVtAkRGDDOIHNtZifz2PHMfqLFetbtnqwWnug1vAEG+sSUGamzZCTs+hJoUtomm9I5Spsbje8hcqMGClMfqpedTeH0tKKaM7Q==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>348242074348070696687696161852653991252661636007</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+

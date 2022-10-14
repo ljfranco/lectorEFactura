@@ -1,0 +1,78 @@
+<CFE version="1.0" xmlns="http://cfe.dgi.gub.uy">
+	<eRem>
+		<TmstFirma>2022-09-19T14:59:58-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>181</TipoCFE>
+				<Serie>B</Serie>
+				<Nro>115245</Nro>
+				<NroInterno>141003</NroInterno>
+				<FchEmis>2022-09-19</FchEmis>
+				<TipoTraslado>1</TipoTraslado>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>213645290011</RUCEmisor>
+				<RznSoc>ULIREN S.A.</RznSoc>
+				<NomComercial>ULIREN S.A.</NomComercial>
+				<GiroEmis>AUTO</GiroEmis>
+				<Telefono>2355 8862</Telefono>
+				<CorreoEmisor>jm.redin@uliren.com.uy</CorreoEmisor>
+				<CdgDGISucur>2</CdgDGISucur>
+				<DomFiscal>Av. Millan 5308</DomFiscal>
+				<Ciudad>Montevideo</Ciudad>
+				<Departamento>Montevideo</Departamento>
+				<InfoAdicionalEmisor/>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>Nortesur S.A.</RznSocRecep>
+				<DirRecep>Camino Maldonado 7407</DirRecep>
+				<CiudadRecep>Montevideo</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<CantLinDet>1</CantLinDet>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<NomItem>Val.Carga/Val.Descarga</NomItem>
+				<Cantidad>40.000</Cantidad>
+				<UniMed>UNI</UniMed>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90221506034</CAE_ID>
+			<DNro>115001</DNro>
+			<HNro>116000</HNro>
+			<FecVenc>2024-08-21</FecVenc>
+		</CAEData>
+	</eRem>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>qiiYRuQFQXTI5OTNGIpOzDfok/U=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>io2vPNdcum9JRDDSNliD0ny0j+2rAVj/tS4B8nTnAEK5XFHnrIlcrztcfFrei21gOUYsvLUGmSqmOOa9wamg/L9zMY3reNkSeGXKdV5UAKPfv8sZAiOdt3gn/0k40rpUCRL5MUbVT0bEPb+tOiykRhm3/Qyizmk1TQ3Jo9Wb66K35zY+aBOquSdNLIN5+TWJgVbE4ffQoHIiWt6OJ5ZvNTMOuW/4NVjPpCdmX4mjkssisO/8bwsJyxXY17g03ltY5YgvfJXXY06hZi58I7uSP0dFLXEKqBF2XNbgC5rc8r/ZiT9MDB5C/HMttE4xNcsd7Jf78YsQHzNY0qgI0169Gw==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab, OU=ID digital, O=Abitab S.A., L=Montevideo, C=UY</X509IssuerName>
+					<X509SerialNumber>208772810535954322310779573193267618773942566737</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<DGICFE:Adenda>4 FARDOS - RETIRAN</DGICFE:Adenda>
+

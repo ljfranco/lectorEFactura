@@ -1,0 +1,94 @@
+<CFE xmlns="http://cfe.dgi.gub.uy" version="1.0">
+	<eFact>
+		<TmstFirma>2022-09-08T02:00:24+00:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>11463</Nro>
+				<FchEmis>2022-09-07</FchEmis>
+				<MntBruto>1</MntBruto>
+				<FmaPago>1</FmaPago>
+				<FchVenc>2022-10-07</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>180157660014</RUCEmisor>
+				<RznSoc>LUDAMO SRL</RznSoc>
+				<NomComercial/>
+				<CdgDGISucur>1</CdgDGISucur>
+				<DomFiscal>Grito de Asencio y Schuster</DomFiscal>
+				<Ciudad>Dolores</Ciudad>
+				<Departamento>Soriano</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR SOCIEDAD ANÃ?NIMA</RznSocRecep>
+				<DirRecep>RUTA 8 7407</DirRecep>
+				<CiudadRecep>MONTEVIDEO</CiudadRecep>
+				<DeptoRecep>Montevideo</DeptoRecep>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>UYU</TpoMoneda>
+				<MntNoGrv>0</MntNoGrv>
+				<MntNetoIvaTasaMin>0</MntNetoIvaTasaMin>
+				<MntNetoIVATasaBasica>663.93</MntNetoIVATasaBasica>
+				<IVATasaMin>10</IVATasaMin>
+				<IVATasaBasica>22</IVATasaBasica>
+				<MntIVATasaMin>0</MntIVATasaMin>
+				<MntIVATasaBasica>146.07</MntIVATasaBasica>
+				<MntTotal>810</MntTotal>
+				<CantLinDet>1</CantLinDet>
+				<MontoNF>0</MontoNF>
+				<MntPagar>810</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<IndFact>3</IndFact>
+				<NomItem>2 cenas</NomItem>
+				<Cantidad>1.000</Cantidad>
+				<UniMed>un</UniMed>
+				<PrecioUnitario>810.000000</PrecioUnitario>
+				<MontoItem>810</MontoItem>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90221007003</CAE_ID>
+			<DNro>10501</DNro>
+			<HNro>22500</HNro>
+			<FecVenc>2024-06-06</FecVenc>
+		</CAEData>
+	</eFact>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>5T23XDycB9UjQhmr6az5kg50rf0tock0BySBB8sv8Nk=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>r3mVYz9ab3M91+ztR0i1XfxJGmavx4MtlXeCJLKhRCfpNXe7723LqrnztLlDbkAHeJnjxbtX578qm2uIaaTpB4pNstl4EOItPT4NPT/egWeVKg06rTu3HzvGIsPSIpalQHPr6tPFAA1EBvjjAkpxRZTYnYitoijY9iLKBWDdxcQ8MNMKm8zRPnPpQe3cqkTFdC1bq0XVVGJDupim2OSJcMeWWMaJShj2Mwf3IS0VaJytDwNOcgH17/xMPBTuxFyHOxQsN2ROXm9e/sBxRsNa8DskIRYWsCG2acoax2HQtiGpbVbOQEr3++cGa7kCvG04/+Oq8FmUPrQtDtt/itfwgQ==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509SubjectName/>
+				<ds:X509IssuerSerial>
+					<ds:X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</ds:X509IssuerName>
+					<ds:X509SerialNumber>224554872214307071898011151148746560633844407672</ds:X509SerialNumber>
+				</ds:X509IssuerSerial>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+
+<Adenda>
+	<Texto/>
+</Adenda>
+</CFE>

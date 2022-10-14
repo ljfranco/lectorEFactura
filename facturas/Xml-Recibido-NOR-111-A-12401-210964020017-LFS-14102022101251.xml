@@ -1,0 +1,132 @@
+<CFE xmlns="http://cfe.dgi.gub.uy" version="1.0">
+	<eFact>
+		<TmstFirma>2022-09-02T12:16:41-03:00</TmstFirma>
+		<Encabezado>
+			<IdDoc>
+				<TipoCFE>111</TipoCFE>
+				<Serie>A</Serie>
+				<Nro>12401</Nro>
+				<FchEmis>2022-09-02</FchEmis>
+				<FmaPago>2</FmaPago>
+				<FchVenc>2022-10-02</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUCEmisor>210964020017</RUCEmisor>
+				<RznSoc>CARGO TRANSLOG S.A.</RznSoc>
+				<NomComercial>CARGO TRANSLOG S.A.</NomComercial>
+				<GiroEmis>TRANSPORTE TERRESTRE LOCAL DE CARGA (FLETES, MUDANZAS, E</GiroEmis>
+				<Telefono>+598 22201826</Telefono>
+				<CorreoEmisor/>
+				<EmiSucursal>Sucursal Principal</EmiSucursal>
+				<CdgDGISucur>3</CdgDGISucur>
+				<DomFiscal>Cno. Petirossi 4416</DomFiscal>
+				<Ciudad>MONTEVIDEO</Ciudad>
+				<Departamento>MONTEVIDEO</Departamento>
+			</Emisor>
+			<Receptor>
+				<TipoDocRecep>2</TipoDocRecep>
+				<CodPaisRecep>UY</CodPaisRecep>
+				<DocRecep>210218660014</DocRecep>
+				<RznSocRecep>NORTESUR S.A.</RznSocRecep>
+				<DirRecep>RUTA 8 BRIG. GRAL. J.A. LAVALLEJA 7407</DirRecep>
+				<CiudadRecep>Montevideo</CiudadRecep>
+				<DeptoRecep>MONTEVIDEO</DeptoRecep>
+				<PaisRecep>Uruguay</PaisRecep>
+				<CP>    0</CP>
+				<InfoAdicional>C01030577</InfoAdicional>
+				<LugarDestEnt/>
+				<CompraID>SOLSERAP-A-5624</CompraID>
+			</Receptor>
+			<Totales>
+				<TpoMoneda>USD</TpoMoneda>
+				<TpoCambio>40.794</TpoCambio>
+				<MntNoGrv>1966.00</MntNoGrv>
+				<MntExpoyAsim>0.00</MntExpoyAsim>
+				<MntImpuestoPerc>0.00</MntImpuestoPerc>
+				<MntIVaenSusp>0.00</MntIVaenSusp>
+				<MntNetoIvaTasaMin>0.00</MntNetoIvaTasaMin>
+				<MntNetoIVATasaBasica>1100.00</MntNetoIVATasaBasica>
+				<MntNetoIVAOtra>0.00</MntNetoIVAOtra>
+				<IVATasaMin>10.00</IVATasaMin>
+				<IVATasaBasica>22.00</IVATasaBasica>
+				<MntIVATasaMin>0.00</MntIVATasaMin>
+				<MntIVATasaBasica>242.00</MntIVATasaBasica>
+				<MntIVAOtra>0.00</MntIVAOtra>
+				<MntTotal>3308.00</MntTotal>
+				<MntTotRetenido>0.00</MntTotRetenido>
+				<CantLinDet>2</CantLinDet>
+				<MontoNF>0.00</MontoNF>
+				<MntPagar>3308.00</MntPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<Item>
+				<NroLinDet>1</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>000018</Cod>
+				</CodItem>
+				<IndFact>1</IndFact>
+				<NomItem>Flete de camion hasta 30Ton por viaje  (tramo exterior)</NomItem>
+				<DscItem/>
+				<Cantidad>1.000</Cantidad>
+				<UniMed>UN</UniMed>
+				<PrecioUnitario>1966.000000</PrecioUnitario>
+				<DescuentoPct>0.000</DescuentoPct>
+				<DescuentoMonto>0.00</DescuentoMonto>
+				<RecargoPct>0.000</RecargoPct>
+				<RecargoMnt>0.00</RecargoMnt>
+				<MontoItem>1966.00</MontoItem>
+			</Item>
+			<Item>
+				<NroLinDet>2</NroLinDet>
+				<CodItem>
+					<TpoCod>INT1</TpoCod>
+					<Cod>000013</Cod>
+				</CodItem>
+				<IndFact>3</IndFact>
+				<NomItem>Flete de camion hasta 30Ton por viaje</NomItem>
+				<DscItem/>
+				<Cantidad>1.000</Cantidad>
+				<UniMed>UN</UniMed>
+				<PrecioUnitario>1100.000000</PrecioUnitario>
+				<DescuentoPct>0.000</DescuentoPct>
+				<DescuentoMonto>0.00</DescuentoMonto>
+				<RecargoPct>0.000</RecargoPct>
+				<RecargoMnt>0.00</RecargoMnt>
+				<MontoItem>1100.00</MontoItem>
+			</Item>
+		</Detalle>
+		<CAEData>
+			<CAE_ID>90211578334</CAE_ID>
+			<DNro>9501</DNro>
+			<HNro>14000</HNro>
+			<FecVenc>2023-10-04</FecVenc>
+		</CAEData>
+	</eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>1J7MXvSoa43L5/AHEGACrBqSJkU=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>nRw+RsRvMD/RwYiYKlSrOPSzIkaGclKWBnF9+70A3xv94JV/4UC/94+PqTV6HHNSXFithAdDyu928CupqefcSxGmvaPfUkFnuLwZ6ZY0S14lWOBgJrAhlTfvkCo0NY/4J3dWFy9Y7JaTcQU0vjx0p5IgkyKoZQC5geWLElsiRqcbch6Cd2WWF3MaMwwiUFouSuMvy/rhCFDLfFPpCZdboTdJu6TMcvULZN7P7CLUrkRGlT6ZrGwVHAZ9qtnnEcGajtZRyjF8aorTQDjpf9qFOi8IFRoROGV078BpHUkuepC1JjXwDzWEN0YWhuzWbSF6Q/Uj4awI23Fm26CsPMeBnw==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</X509IssuerName>
+					<X509SerialNumber>218735775035588988225429404098928247317845651704</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFE>
+<Adenda xmlns="http://cfe.dgi.gub.uy">MATRICULA LTP 1700-MTP 1736, VIAJE DE XILENO DESDE YPF-LA PLATA DESTINO NS2, N.º CARPETA 276/2022</Adenda>
+
